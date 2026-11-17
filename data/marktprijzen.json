@@ -1,1 +1,92 @@
-{}
+{
+ "tas|callaway": {
+  "ts": 1794927550.648545,
+  "n": 9,
+  "mediaan": 45.0
+ },
+ "vinted|tas|callaway": {
+  "ts": 1794927551.9631398,
+  "n": 3,
+  "mediaan": 20.0
+ },
+ "vinted|putter|scotty cameron": {
+  "ts": 1794927555.4039333,
+  "n": 57,
+  "mediaan": 215.0
+ },
+ "putter|mizuno": {
+  "ts": 1794927558.907072,
+  "n": 1,
+  "mediaan": 50.0
+ },
+ "vinted|putter|mizuno": {
+  "ts": 1794927560.2605684,
+  "n": 22,
+  "mediaan": 70.5
+ },
+ "horloge|garmin|s20": {
+  "ts": 1794927563.896074,
+  "n": 0,
+  "mediaan": null
+ },
+ "horloge|garmin": {
+  "ts": 1794927563.896074,
+  "n": 11,
+  "mediaan": 125.0
+ },
+ "vinted|horloge|garmin|s20": {
+  "ts": 1794927566.6277463,
+  "n": 17,
+  "mediaan": 80.0
+ },
+ "horloge|garmin|s70": {
+  "ts": 1794927570.2784996,
+  "n": 1,
+  "mediaan": 300.0
+ },
+ "vinted|horloge|garmin|s70": {
+  "ts": 1794927572.759201,
+  "n": 11,
+  "mediaan": 420.0
+ },
+ "horloge|garmin|s62": {
+  "ts": 1794927576.184264,
+  "n": 2,
+  "mediaan": 275.0
+ },
+ "vinted|horloge|garmin|s62": {
+  "ts": 1794927577.4422922,
+  "n": 15,
+  "mediaan": 250.0
+ },
+ "hybride|callaway": {
+  "ts": 1794927581.146601,
+  "n": 10,
+  "mediaan": 57.5
+ },
+ "vinted|hybride|callaway": {
+  "ts": 1794927582.4900882,
+  "n": 64,
+  "mediaan": 90.0
+ },
+ "wedge|callaway": {
+  "ts": 1794927586.0317383,
+  "n": 5,
+  "mediaan": 190.0
+ },
+ "vinted|wedge|callaway": {
+  "ts": 1794927587.2153783,
+  "n": 75,
+  "mediaan": 60.0
+ },
+ "wedge|titleist": {
+  "ts": 1794927590.8663614,
+  "n": 3,
+  "mediaan": 300.0
+ },
+ "vinted|wedge|titleist": {
+  "ts": 1794927592.1180732,
+  "n": 81,
+  "mediaan": 80.0
+ }
+}
