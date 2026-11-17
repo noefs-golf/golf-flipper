@@ -1,0 +1,41 @@
+name: Golf Flipper
+
+on:
+  schedule:
+    - cron: "7,22,37,52 6-22 * * *"   # elke 15 min tussen 7u en 23u (Belgische tijd)
+  workflow_dispatch:            # knop "Run workflow" om handmatig te starten
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golf-flipper
+  cancel-in-progress: false
+
+jobs:
+  zoek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main              # altijd de nieuwste versie, ook bij Re-run
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Zoek koopjes
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python golf_flipper.py
+      - name: Onthoud geziene advertenties
+        run: |
+          git config user.name "golf-flipper-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "update gezien/marktprijzen"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
