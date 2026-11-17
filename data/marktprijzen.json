@@ -293,5 +293,65 @@
   "ts": 1794939046.8283782,
   "n": 32,
   "mediaan": 47.0
+ },
+ "driver|taylormade|qi10": {
+  "ts": 1794943835.129489,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|taylormade|qi10": {
+  "ts": 1794943836.4312685,
+  "n": 14,
+  "mediaan": 300.0
+ },
+ "driver|ping": {
+  "ts": 1794943840.1601267,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|ping": {
+  "ts": 1794943841.7719111,
+  "n": 56,
+  "mediaan": 105.0
+ },
+ "driver|callaway|bigbertha": {
+  "ts": 1794943845.4216259,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|callaway|bigbertha": {
+  "ts": 1794943846.6867015,
+  "n": 3,
+  "mediaan": 34.0
+ },
+ "putter|ping": {
+  "ts": 1794943850.5497956,
+  "n": 11,
+  "mediaan": 75.0
+ },
+ "vinted|putter|ping": {
+  "ts": 1794943852.2103906,
+  "n": 62,
+  "mediaan": 65.0
+ },
+ "fairway|taylormade|m6": {
+  "ts": 1794943855.9102674,
+  "n": 0,
+  "mediaan": null
+ },
+ "fairway|taylormade": {
+  "ts": 1794943855.9102674,
+  "n": 5,
+  "mediaan": 75.0
+ },
+ "vinted|fairway|taylormade|m6": {
+  "ts": 1794943858.5387025,
+  "n": 2,
+  "mediaan": 97.5
+ },
+ "vinted|fairway|taylormade": {
+  "ts": 1794943858.5387025,
+  "n": 28,
+  "mediaan": 77.0
  }
 }
