@@ -403,5 +403,40 @@
   "ts": 1794951053.7746878,
   "n": 9,
   "mediaan": 120.0
+ },
+ "driver|cobra": {
+  "ts": 1794954692.8215258,
+  "n": 6,
+  "mediaan": 95.0
+ },
+ "vinted|driver|cobra": {
+  "ts": 1794954694.4919784,
+  "n": 61,
+  "mediaan": 80.0
+ },
+ "putter|cleveland": {
+  "ts": 1794954698.354059,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|putter|cleveland": {
+  "ts": 1794954699.8298168,
+  "n": 38,
+  "mediaan": 67.0
+ },
+ "horloge|garmin|s40": {
+  "ts": 1794954703.475587,
+  "n": 1,
+  "mediaan": 120.0
+ },
+ "vinted|horloge|garmin|s40": {
+  "ts": 1794954704.9791405,
+  "n": 4,
+  "mediaan": 95.0
+ },
+ "vinted|horloge|garmin": {
+  "ts": 1794954704.9791405,
+  "n": 80,
+  "mediaan": 135.0
  }
 }
