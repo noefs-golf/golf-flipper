@@ -228,5 +228,70 @@
   "ts": 1794935365.3446803,
   "n": 46,
   "mediaan": 58.5
+ },
+ "driver|callaway|epic": {
+  "ts": 1794939019.5759227,
+  "n": 1,
+  "mediaan": 190.0
+ },
+ "vinted|driver|callaway|epic": {
+  "ts": 1794939020.9605458,
+  "n": 14,
+  "mediaan": 162.5
+ },
+ "ijzers|callaway|apex": {
+  "ts": 1794939024.4668894,
+  "n": 2,
+  "mediaan": 450.0
+ },
+ "ijzers|callaway": {
+  "ts": 1794939024.4668894,
+  "n": 7,
+  "mediaan": 250.0
+ },
+ "vinted|ijzers|callaway|apex": {
+  "ts": 1794939030.3826895,
+  "n": 1,
+  "mediaan": 600.0
+ },
+ "vinted|ijzers|callaway": {
+  "ts": 1794939030.3826895,
+  "n": 3,
+  "mediaan": 249.0
+ },
+ "hybride|taylormade|sim2": {
+  "ts": 1794939037.3321655,
+  "n": 0,
+  "mediaan": null
+ },
+ "hybride|taylormade": {
+  "ts": 1794939037.3321655,
+  "n": 2,
+  "mediaan": 117.5
+ },
+ "vinted|hybride|taylormade|sim2": {
+  "ts": 1794939040.3066864,
+  "n": 5,
+  "mediaan": 110.0
+ },
+ "fairway|callaway|aismoke": {
+  "ts": 1794939043.7741442,
+  "n": 0,
+  "mediaan": null
+ },
+ "fairway|callaway": {
+  "ts": 1794939043.7741442,
+  "n": 7,
+  "mediaan": 85.0
+ },
+ "vinted|fairway|callaway|aismoke": {
+  "ts": 1794939046.8283782,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|callaway": {
+  "ts": 1794939046.8283782,
+  "n": 32,
+  "mediaan": 47.0
  }
 }
