@@ -118,5 +118,115 @@
   "ts": 1794931271.7582767,
   "n": 7,
   "mediaan": 160.0
+ },
+ "driver|mizuno|jpx": {
+  "ts": 1794935319.2888665,
+  "n": 0,
+  "mediaan": null
+ },
+ "driver|mizuno": {
+  "ts": 1794935319.2888665,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|mizuno|jpx": {
+  "ts": 1794935322.162663,
+  "n": 8,
+  "mediaan": 107.0
+ },
+ "driver|taylormade|sim2": {
+  "ts": 1794935325.7567616,
+  "n": 0,
+  "mediaan": null
+ },
+ "driver|taylormade": {
+  "ts": 1794935325.7567616,
+  "n": 4,
+  "mediaan": 97.5
+ },
+ "vinted|driver|taylormade|sim2": {
+  "ts": 1794935328.7622988,
+  "n": 5,
+  "mediaan": 225.0
+ },
+ "putter|odyssey|whitehot": {
+  "ts": 1794935332.3403423,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|putter|odyssey|whitehot": {
+  "ts": 1794935333.5870793,
+  "n": 2,
+  "mediaan": 82.5
+ },
+ "putter|cobra": {
+  "ts": 1794935337.076826,
+  "n": 2,
+  "mediaan": 114.5
+ },
+ "vinted|putter|cobra": {
+  "ts": 1794935338.6216362,
+  "n": 24,
+  "mediaan": 112.5
+ },
+ "ijzers|cobra|king": {
+  "ts": 1794935342.2473857,
+  "n": 1,
+  "mediaan": 125.0
+ },
+ "ijzers|cobra": {
+  "ts": 1794935342.2473857,
+  "n": 1,
+  "mediaan": 125.0
+ },
+ "vinted|ijzers|cobra|king": {
+  "ts": 1794935345.7146044,
+  "n": 1,
+  "mediaan": 425.0
+ },
+ "vinted|ijzers|cobra": {
+  "ts": 1794935345.7146044,
+  "n": 2,
+  "mediaan": 225.0
+ },
+ "wedge|cleveland": {
+  "ts": 1794935352.7292438,
+  "n": 9,
+  "mediaan": 69.0
+ },
+ "vinted|wedge|cleveland": {
+  "ts": 1794935354.1503341,
+  "n": 74,
+  "mediaan": 50.0
+ },
+ "hybride|ping": {
+  "ts": 1794935357.8309717,
+  "n": 3,
+  "mediaan": 110.0
+ },
+ "vinted|hybride|ping": {
+  "ts": 1794935359.1724985,
+  "n": 20,
+  "mediaan": 71.0
+ },
+ "wedge|ping|g410": {
+  "ts": 1794935362.743065,
+  "n": 0,
+  "mediaan": null
+ },
+ "wedge|ping": {
+  "ts": 1794935362.743065,
+  "n": 1,
+  "mediaan": 30.0
+ },
+ "vinted|wedge|ping|g410": {
+  "ts": 1794935365.3446803,
+  "n": 2,
+  "mediaan": 80.0
+ },
+ "vinted|wedge|ping": {
+  "ts": 1794935365.3446803,
+  "n": 46,
+  "mediaan": 58.5
  }
 }
