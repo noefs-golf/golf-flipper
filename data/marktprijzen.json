@@ -378,5 +378,30 @@
   "ts": 1794947321.174807,
   "n": 1,
   "mediaan": 57.0
+ },
+ "driver|srixon": {
+  "ts": 1794951045.3284168,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|srixon": {
+  "ts": 1794951046.6389515,
+  "n": 19,
+  "mediaan": 93.0
+ },
+ "driver|cleveland|launcher": {
+  "ts": 1794951050.5364957,
+  "n": 0,
+  "mediaan": null
+ },
+ "driver|cleveland": {
+  "ts": 1794951050.5364957,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|cleveland|launcher": {
+  "ts": 1794951053.7746878,
+  "n": 9,
+  "mediaan": 120.0
  }
 }
