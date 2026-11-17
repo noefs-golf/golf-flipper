@@ -88,5 +88,35 @@
   "ts": 1794927592.1180732,
   "n": 81,
   "mediaan": 80.0
+ },
+ "driver|callaway": {
+  "ts": 1794931260.5518029,
+  "n": 18,
+  "mediaan": 172.5
+ },
+ "vinted|driver|callaway": {
+  "ts": 1794931261.9537792,
+  "n": 72,
+  "mediaan": 80.0
+ },
+ "putter|odyssey": {
+  "ts": 1794931265.56679,
+  "n": 21,
+  "mediaan": 115.0
+ },
+ "vinted|putter|odyssey": {
+  "ts": 1794931266.9930418,
+  "n": 63,
+  "mediaan": 99.0
+ },
+ "tas|taylormade": {
+  "ts": 1794931270.5305872,
+  "n": 4,
+  "mediaan": 137.5
+ },
+ "vinted|tas|taylormade": {
+  "ts": 1794931271.7582767,
+  "n": 7,
+  "mediaan": 160.0
  }
 }
