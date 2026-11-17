@@ -353,5 +353,30 @@
   "ts": 1794943858.5387025,
   "n": 28,
   "mediaan": 77.0
+ },
+ "vinted|driver|taylormade": {
+  "ts": 1794947310.8957815,
+  "n": 71,
+  "mediaan": 99.0
+ },
+ "fairway|callaway|bigbertha": {
+  "ts": 1794947314.8486485,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|callaway|bigbertha": {
+  "ts": 1794947316.501886,
+  "n": 2,
+  "mediaan": 37.5
+ },
+ "putter|srixon": {
+  "ts": 1794947319.9172711,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|putter|srixon": {
+  "ts": 1794947321.174807,
+  "n": 1,
+  "mediaan": 57.0
  }
 }
