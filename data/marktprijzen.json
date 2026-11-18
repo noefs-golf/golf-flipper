@@ -648,5 +648,40 @@
   "ts": 1795017882.006243,
   "n": 11,
   "mediaan": 150.0
+ },
+ "vinted|driver|mizuno": {
+  "ts": 1795021933.8918242,
+  "n": 33,
+  "mediaan": 80.0
+ },
+ "wedge|mizuno": {
+  "ts": 1795021937.4464123,
+  "n": 1,
+  "mediaan": 70.0
+ },
+ "vinted|wedge|mizuno": {
+  "ts": 1795021938.8516135,
+  "n": 40,
+  "mediaan": 49.0
+ },
+ "hybride|callaway|paradym": {
+  "ts": 1795021942.38341,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|hybride|callaway|paradym": {
+  "ts": 1795021943.6382456,
+  "n": 3,
+  "mediaan": 145.0
+ },
+ "ijzers|titleist": {
+  "ts": 1795021947.1098266,
+  "n": 2,
+  "mediaan": 375.0
+ },
+ "vinted|ijzers|titleist": {
+  "ts": 1795021948.4306145,
+  "n": 1,
+  "mediaan": 1275.0
  }
 }
