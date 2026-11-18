@@ -463,5 +463,25 @@
   "ts": 1794986447.1220245,
   "n": 11,
   "mediaan": 150.0
+ },
+ "horloge|garmin|s60": {
+  "ts": 1794990989.7553089,
+  "n": 2,
+  "mediaan": 177.5
+ },
+ "vinted|horloge|garmin|s60": {
+  "ts": 1794990991.0997953,
+  "n": 10,
+  "mediaan": 192.5
+ },
+ "fairway|taylormade|sim": {
+  "ts": 1794990994.7374694,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|taylormade|sim": {
+  "ts": 1794990996.0295944,
+  "n": 0,
+  "mediaan": null
  }
 }
