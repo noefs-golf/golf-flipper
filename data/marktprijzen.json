@@ -623,5 +623,30 @@
   "ts": 1795014025.760304,
   "n": 0,
   "mediaan": null
+ },
+ "driver|taylormade|m2": {
+  "ts": 1795017872.4516087,
+  "n": 1,
+  "mediaan": 145.0
+ },
+ "vinted|driver|taylormade|m2": {
+  "ts": 1795017873.7199142,
+  "n": 8,
+  "mediaan": 150.0
+ },
+ "vinted|putter|taylormade": {
+  "ts": 1795017877.1375773,
+  "n": 52,
+  "mediaan": 97.5
+ },
+ "horloge|garmin|s42": {
+  "ts": 1795017880.8422322,
+  "n": 1,
+  "mediaan": 225.0
+ },
+ "vinted|horloge|garmin|s42": {
+  "ts": 1795017882.006243,
+  "n": 11,
+  "mediaan": 150.0
  }
 }
