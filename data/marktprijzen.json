@@ -483,5 +483,25 @@
   "ts": 1794990996.0295944,
   "n": 0,
   "mediaan": null
+ },
+ "putter|cobra|king": {
+  "ts": 1794994756.79064,
+  "n": 1,
+  "mediaan": 100.0
+ },
+ "vinted|putter|cobra|king": {
+  "ts": 1794994758.147486,
+  "n": 11,
+  "mediaan": 120.0
+ },
+ "tas|titleist": {
+  "ts": 1794994761.8394837,
+  "n": 1,
+  "mediaan": 120.0
+ },
+ "vinted|tas|titleist": {
+  "ts": 1794994763.2598226,
+  "n": 1,
+  "mediaan": 80.0
  }
 }
