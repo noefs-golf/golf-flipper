@@ -598,5 +598,30 @@
   "ts": 1795010634.2253778,
   "n": 78,
   "mediaan": 65.0
+ },
+ "driver|callaway|paradym": {
+  "ts": 1795014017.7396607,
+  "n": 1,
+  "mediaan": 260.0
+ },
+ "vinted|driver|callaway|paradym": {
+  "ts": 1795014019.2790506,
+  "n": 11,
+  "mediaan": 225.0
+ },
+ "trolley|titleist": {
+  "ts": 1795014022.8523936,
+  "n": 1,
+  "mediaan": 30.0
+ },
+ "tas|ping": {
+  "ts": 1795014024.383569,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|tas|ping": {
+  "ts": 1795014025.760304,
+  "n": 0,
+  "mediaan": null
  }
 }
