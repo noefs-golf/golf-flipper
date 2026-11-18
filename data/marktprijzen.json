@@ -513,5 +513,45 @@
   "ts": 1794998880.5250764,
   "n": 17,
   "mediaan": 105.0
+ },
+ "fairway|taylormade|stealth": {
+  "ts": 1795002431.682617,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|taylormade|stealth": {
+  "ts": 1795002432.966287,
+  "n": 1,
+  "mediaan": 159.0
+ },
+ "driver|titleist": {
+  "ts": 1795002436.5287123,
+  "n": 2,
+  "mediaan": 360.0
+ },
+ "vinted|driver|titleist": {
+  "ts": 1795002438.0374522,
+  "n": 70,
+  "mediaan": 217.5
+ },
+ "ijzers|taylormade": {
+  "ts": 1795002441.8296905,
+  "n": 6,
+  "mediaan": 250.0
+ },
+ "vinted|ijzers|taylormade": {
+  "ts": 1795002443.3110359,
+  "n": 3,
+  "mediaan": 650.0
+ },
+ "ijzers|mizuno": {
+  "ts": 1795002446.9112985,
+  "n": 3,
+  "mediaan": 475.0
+ },
+ "vinted|ijzers|mizuno": {
+  "ts": 1795002448.1696904,
+  "n": 1,
+  "mediaan": 1150.0
  }
 }
