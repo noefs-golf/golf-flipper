@@ -693,5 +693,30 @@
   "ts": 1795025573.7777593,
   "n": 0,
   "mediaan": null
+ },
+ "set|titleist": {
+  "ts": 1795029846.984401,
+  "n": 1,
+  "mediaan": 350.0
+ },
+ "ijzers|taylormade|m6": {
+  "ts": 1795029848.4303539,
+  "n": 1,
+  "mediaan": 45.0
+ },
+ "vinted|ijzers|taylormade|m6": {
+  "ts": 1795029849.7966182,
+  "n": 0,
+  "mediaan": null
+ },
+ "hybride|big max": {
+  "ts": 1795029853.1956756,
+  "n": 2,
+  "mediaan": 90.0
+ },
+ "vinted|hybride|big max": {
+  "ts": 1795029854.5534904,
+  "n": 4,
+  "mediaan": 80.0
  }
 }
