@@ -683,5 +683,15 @@
   "ts": 1795021948.4306145,
   "n": 1,
   "mediaan": 1275.0
+ },
+ "ijzers|callaway|rogue": {
+  "ts": 1795025572.3956769,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|ijzers|callaway|rogue": {
+  "ts": 1795025573.7777593,
+  "n": 0,
+  "mediaan": null
  }
 }
