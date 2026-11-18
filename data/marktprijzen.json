@@ -438,5 +438,30 @@
   "ts": 1794954704.9791405,
   "n": 80,
   "mediaan": 135.0
+ },
+ "putter|taylormade|spider": {
+  "ts": 1794986438.9129994,
+  "n": 3,
+  "mediaan": 159.0
+ },
+ "putter|taylormade": {
+  "ts": 1794986438.9129994,
+  "n": 6,
+  "mediaan": 137.5
+ },
+ "vinted|putter|taylormade|spider": {
+  "ts": 1794986442.124068,
+  "n": 43,
+  "mediaan": 185.0
+ },
+ "fairway|titleist": {
+  "ts": 1794986445.740198,
+  "n": 1,
+  "mediaan": 85.0
+ },
+ "vinted|fairway|titleist": {
+  "ts": 1794986447.1220245,
+  "n": 11,
+  "mediaan": 150.0
  }
 }
