@@ -758,5 +758,15 @@
   "ts": 1795088672.5023825,
   "n": 45,
   "mediaan": 250.0
+ },
+ "horloge|garmin|s10": {
+  "ts": 1795091570.2017684,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|horloge|garmin|s10": {
+  "ts": 1795091571.6487114,
+  "n": 14,
+  "mediaan": 75.0
  }
 }
