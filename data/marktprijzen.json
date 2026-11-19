@@ -808,5 +808,15 @@
   "ts": 1795097449.4458714,
   "n": 5,
   "mediaan": 99.0
+ },
+ "fairway|callaway|mavrik": {
+  "ts": 1795105768.4643698,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|callaway|mavrik": {
+  "ts": 1795105770.1115077,
+  "n": 2,
+  "mediaan": 92.0
  }
 }
