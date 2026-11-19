@@ -718,5 +718,40 @@
   "ts": 1795029854.5534904,
   "n": 4,
   "mediaan": 80.0
+ },
+ "driver|taylormade|m4": {
+  "ts": 1795081744.3037565,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|taylormade|m4": {
+  "ts": 1795081745.696586,
+  "n": 11,
+  "mediaan": 135.0
+ },
+ "fairway|titleist|915": {
+  "ts": 1795081749.1511822,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|titleist|915": {
+  "ts": 1795081750.3566027,
+  "n": 0,
+  "mediaan": null
+ },
+ "set|cleveland": {
+  "ts": 1795081753.6995797,
+  "n": 0,
+  "mediaan": null
+ },
+ "fairway|callaway|epic": {
+  "ts": 1795081755.026657,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|callaway|epic": {
+  "ts": 1795081756.2150018,
+  "n": 1,
+  "mediaan": 140.0
  }
 }
