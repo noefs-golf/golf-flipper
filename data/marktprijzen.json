@@ -778,5 +778,35 @@
   "ts": 1795092694.4609635,
   "n": 1,
   "mediaan": 48.0
+ },
+ "putter|callaway": {
+  "ts": 1795097437.883719,
+  "n": 3,
+  "mediaan": 250.0
+ },
+ "vinted|putter|callaway": {
+  "ts": 1795097439.423392,
+  "n": 21,
+  "mediaan": 59.0
+ },
+ "ijzers|callaway|bigbertha": {
+  "ts": 1795097443.3350644,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|ijzers|callaway|bigbertha": {
+  "ts": 1795097444.5808423,
+  "n": 0,
+  "mediaan": null
+ },
+ "fairway|ping": {
+  "ts": 1795097448.1947565,
+  "n": 1,
+  "mediaan": 25.0
+ },
+ "vinted|fairway|ping": {
+  "ts": 1795097449.4458714,
+  "n": 5,
+  "mediaan": 99.0
  }
 }
