@@ -1,0 +1,56 @@
+{
+  "ntfy_topic": "VERANDER-MIJ-golfflip-xxxxxxxx",
+  "ntfy_server": "https://ntfy.sh",
+
+  "zones": [
+    {"naam": "Londerzeel", "postcode": "1840", "straal_km": 10},
+    {"naam": "Boom/Willebroek", "postcode": "2850", "straal_km": 10},
+    {"naam": "Antwerpen", "postcode": "2018", "straal_km": 10},
+    {"naam": "Wommelgem/Ranst", "postcode": "2160", "straal_km": 10},
+    {"naam": "Zoersel", "postcode": "2980", "straal_km": 10},
+    {"naam": "Gierle", "postcode": "2275", "straal_km": 10}
+  ],
+
+  "zoektermen": ["golf", "golfclubs", "golftrolley", "garmin approach", "golf horloge"],
+
+  "vinted": {
+    "aan": true,
+    "zoektermen": ["golf driver", "golf putter", "golf ijzers", "fers golf", "golfset", "golftas",
+                   "garmin approach", "golftrolley", "taylormade golf", "callaway golf",
+                   "titleist golf", "ping golf", "scotty cameron"],
+    "pauze_sec": 3,
+    "verzendkosten": {"standaard": 7, "set": 15, "tas": 12, "trolley": 20, "ijzers": 12},
+    "niet_verkopen_op_vinted": ["trolley", "set"]
+  },
+
+  "verkoop_op": ["2dehands", "vinted"],
+
+  "alleen_merken": [
+    "taylormade", "callaway", "titleist", "ping", "cobra", "mizuno", "srixon",
+    "cleveland", "odyssey", "scotty cameron", "pxg",
+    "motocaddy", "powakaddy", "big max", "clicgear", "sun mountain",
+    "bushnell", "garmin"
+  ],
+
+  "min_winst_euro": 25,
+  "kosten_per_aankoop_euro": 5,
+
+  "golfbidder": {
+    "korting_min": 0.05,
+    "korting_max": 0.10,
+    "max_leeftijd_jaar": 10,
+    "alleen_golfbidder": false
+  },
+  "trage_verkopers_overslaan": true,
+
+  "min_vergelijkbare": 5,
+  "markt_cache_dagen": 3,
+
+  "vaste_marktprijzen": {
+    "trolley|motocaddy": 350,
+    "trolley|powakaddy": 330,
+    "afstandsmeter|bushnell": 180,
+    "afstandsmeter|garmin": 220,
+    "putter|scotty cameron": 220
+  }
+}

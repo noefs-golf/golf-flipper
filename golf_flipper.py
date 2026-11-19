@@ -55,7 +55,8 @@ TYPES = [  # volgorde = prioriteit
     ("ijzers", ["ijzers", "ijzerset", "irons", "iron set", "ijzer set", "set ijzers", "4-pw", "5-pw", "6-pw",
                 "série de fers", "serie de fers", "set de fers", " fers "]),
     ("putter", ["putter"]),
-    ("wedge", ["wedge", "sand wedge", "lob wedge", "sw ", " gap "]),
+    ("wedge", ["wedge", "sand wedge", "lob wedge", "sw ", " gap ", "vokey", " sm8", " sm9", " sm10", " sm11",
+               " jaws", " rtx", " rtz", " cbx", " glide", " mg4", "milled grind", "hi-toe", "hi toe"]),
     ("hybride", ["hybride", "hybrid", "rescue", "utility"]),
     ("fairway", ["fairway", "wood 3", "hout 3", "3 wood", "3-wood", "5 wood", "5-wood", "houten 3", "fw ",
                  "bois de parcours", "bois 3", "bois 5"]),
@@ -84,7 +85,8 @@ MODELLEN = [  # model maakt veel uit voor de prijs; lijst mag je zelf aanvullen
 
 GOLF_WOORDEN = ["golf", "driver", "putter", "ijzers", "irons", "wedge", "hybride", "fairway",
                 "trolley", "golftas", "standbag", "cartbag"] + MERKEN
-NIET_GOLF = ["volkswagen", "vw golf", "golf 7", "golf 6", "golf 5", "golf 8", "golf gti", "tdi",
+NIET_GOLF = ["volkswagen", "volswakeng", "vw golf", "golf 7", "golf 6", "golf 5", "golf 4", "golf 8", "golf gti",
+             "tdi", "benzine", "diesel", "kilometer", " km ", "gekeurd", "golf plus", "golf variant",
              "minigolf", "golfplaten", "golfplaat", "golfkarton", "golfbreker", "golfslag"]
 
 
@@ -100,27 +102,38 @@ def ext_attr(l, key):
 
 
 def is_golf(l):
+    t = tekst(l)
+    if any(w in t for w in NIET_GOLF):  # eerst: er staan ook VW Golfs in de categorie Golf
+        return False
     if l.get("categoryId") == GOLF_CAT:
         return True
-    t = tekst(l)
-    if any(w in t for w in NIET_GOLF):
-        return False
     if "garmin" in t and ("approach" in t or "golf" in t):  # golfhorloges staan vaak bij Horloges/Telecom
         return True
     return "/golf/" in (l.get("vipUrl") or "") or ("golf" in t and l.get("l1CategoryId") == SPORT_CAT)
 
 
-ACCESSOIRES = ["cover", "hoes", "housse", "couvre", "grip", " tee", "ballen", "balls", "balles",
+ACCESSOIRES = ["cover", "hoes", "housse", "couvre", "capuchon", "copritesta", "funda", "haube",
+               "kopbeschermer", "headcover", "head cover", "grip", " tee", "ballen", "balls", "balles",
                "handschoen", "gant", "polo", " pet ", "casquette", "schoenen", "chaussures", "shoes",
                "paraplu", "parapluie", "umbrella", "regenhoes", "sticker", "boek", "livre", "poster"]
+
+LOSSE_ONDERDELEN = ["driverhead", "driver head", "head only", "alleen kop", "losse kop", "(kop)", " kop ",
+                    "tête", "testa ", "cabeza", "shaft met", "shaft voor", "shaft for", "shaft only",
+                    "losse shaft", "varilla", "schacht"]
+
+IJZER_REEKS = re.compile(r"(?<![a-z0-9])[3-7]\s?i?\s?[-–/]\s?(pw|p|gw|aw|sw|[6-9]i?)(?![a-z0-9])")
 
 
 def soort(l):
     titel = " " + (l.get("title") or "").lower() + " "
     if any(w in titel for w in ACCESSOIRES):
         return None  # losse accessoires: headcovers, grips, ballen, kledij...
+    if any(w in titel for w in LOSSE_ONDERDELEN) or titel.split()[:1] in (["shaft"], ["varilla"], ["tige"], ["schaft"]):
+        return None  # losse koppen en shafts: andere prijs dan een volledige club
     for naam, woorden in TYPES:  # eerst enkel de titel
         if any(w in titel for w in woorden):
+            return naam
+        if naam == "ijzers" and (IJZER_REEKS.search(titel) or "combo set" in titel):
             return naam
     attr = ext_attr(l, "type")
     mapping = {"set": "set", "tas": "tas", "trolley": "trolley", "driver": "driver",
@@ -299,6 +312,87 @@ def zoek_vinted(cfg):
     return gevonden, (blok > 0 and ok == 0)
 
 
+# ---------------------------------------------------------------- Golfbidder
+GB_PAD = os.path.join(HIER, "golfbidder_prijzen.json")
+GB_SOORTEN = {"driver", "fairway", "hybride", "ijzers", "wedge", "putter"}
+GENERIEK = set("""driver drivers fairway fairways wood woods hout houten bois hybrid hybride hybrids rescue utility
+iron irons ijzer ijzers ijzerset set sets fers serie série putter putters wedge wedges golf golfclub club clubs
+heren mens men man rh lh right left hand handed rechts rechtshandig graphite grafiet steel staal stiff regular
+senior flex shaft gebruikt used nieuw new neuf met with and en de het the van voor for of a in te koop zo goed
+als zgan prima staat condition headcover cover mint tour edition""".split())
+TRAAG = ["linkshandig", "links handig", "linkshander", "linkshänder", "left hand", "left-hand", "lefty", "gaucher",
+         "zurdo", " lh ", "(lh)", "dames", "damesset", "ladies", "lady", "women", "womens", "femme", "damen",
+         "junior", "kinder", "kids", "jeugd", "enfant", "us kids", "u.s. kids"]
+
+
+def norm_tokens(tekst_):
+    t = " " + tekst_.lower().replace("-", " ").replace("_", " ") + " "
+    t = re.sub(r"(\d)[.,](\d)", r"\1 \2", t)                       # "9.5" -> "9 5" (zoals in de Golfbidder-url)
+    t = re.sub(r"[^a-z0-9.\s]", " ", t)
+    t = re.sub(r"\b([a-z]{2,})\s+(\d)\b", r"\1\2", t)          # "stealth 2" -> "stealth2", "qi 10" -> "qi10"
+    t = re.sub(r"\b([a-z]{1,3})\s+(\d{2,3})\b", r"\1\2", t)     # "mp 53" -> "mp53", "apex 21" -> "apex21"
+    toks = []
+    for w in t.split():
+        w = w.strip(".")
+        if not w or w in GENERIEK:
+            continue
+        if re.fullmatch(r"\d{1,2}(\.\d)?", w):                     # lofts zoals 10.5, 56
+            continue
+        toks.append(w)
+    return toks
+
+
+_GB = None
+
+
+def gb_lijst():
+    """Laadt golfbidder_prijzen.json en maakt per item de zoek-tokens klaar."""
+    global _GB
+    if _GB is None:
+        _GB = []
+        for e in laad(GB_PAD, {}).get("items", []):
+            slug = e.get("url", "") or e.get("naam", "")
+            slug_t = slug.lower().replace("-", " ")
+            merk_ = next((m for m in sorted(MERKEN, key=len, reverse=True)
+                          if slug_t.startswith(m + " ") or slug_t.startswith(m.replace(" ", "") + " ")), None)
+            rest = slug_t[len(merk_):] if merk_ else slug_t
+            toks = norm_tokens(rest)
+            if merk_ and toks:
+                _GB.append({**e, "merk": {"taylor made": "taylormade"}.get(merk_, merk_), "tokens": toks})
+    return _GB
+
+
+def golfbidder_prijs(l, soort_, merk_):
+    """Zoekt het Golfbidder-model dat bij de advertentie past. Geeft dict of None."""
+    if soort_ not in GB_SOORTEN or not merk_:
+        return None
+    titel_t = set(norm_tokens(l.get("title") or ""))
+    kand = [e for e in gb_lijst() if e["soort"] == soort_ and e["merk"] == merk_]
+    titel_lijst = norm_tokens(l.get("title") or "")
+    volledig = [e for e in kand if set(e["tokens"]) <= titel_t]
+    if volledig:
+        best = max(len(e["tokens"]) for e in volledig)
+        top = [e for e in volledig if len(e["tokens"]) == best]
+        # bij combo's ("P770 / P7MC") telt het model dat eerst in de titel staat; daarbinnen de goedkoopste
+        eerste = min(titel_lijst.index(e["tokens"][0]) for e in top)
+        e = min((e for e in top if titel_lijst.index(e["tokens"][0]) == eerste), key=lambda e: e["prijs"])
+        return {**e, "zeker": True}
+    # enkel het hoofdmodel komt overeen (bv. "G425" zonder MAX/LST/SFT): neem de goedkoopste variant
+    def hoofd(toks):  # het eigenlijke modelnummer, bv. "g425", "sm9", "p770", "qi10"
+        return next((t for t in toks[:3] if re.search(r"\d", t) and not re.fullmatch(r"(19|20)\d\d", t)),
+                    toks[0] if len(toks[0]) >= 5 else None)
+    deel = [e for e in kand if hoofd(e["tokens"]) and hoofd(e["tokens"]) in titel_t]
+    if deel:
+        e = min(deel, key=lambda e: e["prijs"])
+        return {**e, "zeker": False}
+    return None
+
+
+def is_traag(l):
+    t = " " + tekst(l).replace("(", " (").replace(")", ") ") + " "
+    return next((w.strip() for w in TRAAG if w in t), None)
+
+
 def vinted_marktprijs(soort_, merk_, model_, cfg, cache):
     """Mediaan van de Vinted-vraagprijzen (wat de verkoper ontvangt; Vinted rekent verkopers niets aan)."""
     if not merk_:
@@ -384,6 +478,10 @@ def zoekwoord(s):
 
 
 # ---------------------------------------------------------------- beoordeling
+def afronden5(x):
+    return int(x // 5 * 5)
+
+
 def beoordeel(l, cfg, cache):
     p, typ = prijs(l)
     s, m, mo = soort(l), merk(l), model(l)
@@ -393,56 +491,85 @@ def beoordeel(l, cfg, cache):
     if toegelaten and m not in toegelaten:
         info.update(koopje=False, reden=f"merk niet in je lijst ({m or 'onbekend'})")
         return info
-
+    if cfg.get("trage_verkopers_overslaan", True):
+        w = is_traag(l)
+        if w:
+            info.update(koopje=False, reden=f"verkoopt traag ({w})")
+            return info
     if p is None:
-        info["reden"] = "geen vaste prijs (bieden/zie omschrijving)"
-        info["koopje"] = bool(cfg.get("meld_ook_bieden")) and typ == "FAST_BID"
-        return info
-    if typ == "FREE":
-        info.update(koopje=True, reden="GRATIS")
+        info.update(koopje=False, reden="geen vaste prijs (bieden/zie omschrijving)")
         return info
     if s is None:
         info.update(koopje=False, reden="soort niet herkend")
         return info
 
-    absoluut = cfg.get("absolute_koopjes", {}).get(s)
-    kanalen = cfg.get("verkoop_op", ["2dehands"])
-    markten = {}
-    if "2dehands" in kanalen:
-        mp, bron, _ = marktprijs(s, m, mo, cfg, cache) if (m or s in cfg.get("vaste_marktprijzen", {})) else (None, "geen merk", 0)
-        if mp:
-            markten["2dehands"] = mp
-    vc = cfg.get("vinted") or {}
-    if "vinted" in kanalen and vc.get("aan") and s not in vc.get("niet_verkopen_op_vinted", []):
-        mp, _, _ = vinted_marktprijs(s, m, mo, cfg, cache)
-        if mp:
-            markten["vinted"] = mp
-    info["markten"] = {k: round(v) for k, v in markten.items()}
-    kanaal = max(markten, key=markten.get) if markten else None
-    markt = markten.get(kanaal)
-    info.update(markt=markt, kanaal=kanaal)
+    gbc = cfg.get("golfbidder") or {}
+    k_min, k_max = gbc.get("korting_min", 0.05), gbc.get("korting_max", 0.10)
+    min_winst = cfg.get("min_winst_euro", 25)
 
-    # wat het je echt kost: bij Vinted servicekost + verzending, bij 2dehands je rit
+    # 1) referentieprijs: Golfbidder, anders 2dehands/Vinted
+    gb = golfbidder_prijs(l, s, m)
+    if gb:
+        max_jaar = gbc.get("max_leeftijd_jaar", 10)
+        if cfg.get("trage_verkopers_overslaan", True) and gb.get("jaar") and \
+                datetime.now().year - gb["jaar"] > max_jaar:
+            info.update(koopje=False, reden=f"model te oud ({gb['jaar']})")
+            return info
+        ref, bron = gb["prijs"], "golfbidder"
+        info["gb"] = {"naam": gb["naam"], "jaar": gb.get("jaar"), "prijs": gb["prijs"], "zeker": gb["zeker"],
+                      "url": "https://www.golfbidder.com/nl/catalogsearch/result/?q=" + urllib.parse.quote(gb["naam"])}
+    else:
+        if gbc.get("alleen_golfbidder"):
+            info.update(koopje=False, reden="geen Golfbidder-prijs")
+            return info
+        markten = {}
+        if (m or s in cfg.get("vaste_marktprijzen", {})):
+            mp, _, _ = marktprijs(s, m, mo, cfg, cache)
+            if mp:
+                markten["2dehands"] = mp
+        vc = cfg.get("vinted") or {}
+        if vc.get("aan") and s not in vc.get("niet_verkopen_op_vinted", []):
+            mp, _, _ = vinted_marktprijs(s, m, mo, cfg, cache)
+            if mp:
+                markten["vinted"] = mp
+        if not markten:
+            info.update(koopje=False, reden="geen referentieprijs")
+            return info
+        bron = max(markten, key=markten.get)
+        ref = markten[bron]
+        info["markten"] = {k: round(v) for k, v in markten.items()}
+    info.update(ref=round(ref), bron=bron)
+
+    # 2) verkoopprijs: 5-10% onder de referentie (rekenen met de voorzichtige -10%)
+    verkoop_hoog, verkoop_laag = ref * (1 - k_min), ref * (1 - k_max)
+
+    # 3) wat het je echt kost
     if l.get("_bron") == "vinted":
         vk = (cfg.get("vinted") or {}).get("verzendkosten", {})
         verzend = vk.get(s, vk.get("standaard", 7))
-        kost = l.get("_totaal", p) + verzend
+        totaal = l.get("_totaal", p)
+        kost = totaal + verzend
+        fee_vast, fee_pct = 0.70, 0.05            # Vinted-kopersbescherming (schatting)
+        max_bod = (verkoop_laag - min_winst - verzend - fee_vast) / (1 + fee_pct)
         info.update(kosten_extra=round(kost - p, 2), verzend=verzend)
     else:
-        kost = p + cfg.get("kosten_per_aankoop_euro", 5)
-    info["kost"] = round(kost, 2)
+        rit = cfg.get("kosten_per_aankoop_euro", 5)
+        kost = p + rit
+        max_bod = verkoop_laag - min_winst - rit
+    winst_laag, winst_hoog = verkoop_laag - kost, verkoop_hoog - kost
+    info.update(kost=round(kost, 2), verkoop_laag=round(verkoop_laag), verkoop_hoog=round(verkoop_hoog),
+                winst_laag=round(winst_laag), winst_hoog=round(winst_hoog), max_bod=afronden5(max_bod),
+                winst=round(winst_laag), verkoop=round(verkoop_laag))
+    openingsbod = afronden5(min(p * 0.85, max_bod))
+    info["openingsbod"] = max(openingsbod, 5)
 
-    if markt:
-        verkoop = markt * cfg.get("verkoop_korting", 0.9)
-        winst = verkoop - kost
-        info.update(verkoop=round(verkoop), winst=round(winst))
-        if kost <= markt * cfg.get("max_prijs_vs_markt", 0.65) and winst >= cfg.get("min_winst_euro", 40):
-            info.update(koopje=True, reden=f"{round(100 * kost / markt)}% van marktprijs (incl. kosten)")
-            return info
-    if absoluut is not None and p <= absoluut and p >= 5:
-        info.update(koopje=True, reden=f"onder je spotprijs voor {s} (€{absoluut})")
-        return info
-    info.update(koopje=False, reden="niet goedkoop genoeg")
+    if winst_laag >= min_winst:
+        info.update(koopje=True, reden=f"±€{round(winst_laag)}-{round(winst_hoog)} winst t.o.v. {bron}")
+    elif typ == "MIN_BID" and max_bod >= 5 and max_bod >= p * 0.8:
+        # 'bieden vanaf': met een realistisch bod (max. 20% onder de vraag) haal je wel je winst
+        info.update(koopje=True, reden=f"bieden: tot €{afronden5(max_bod)} haal je je €{min_winst} winst")
+    else:
+        info.update(koopje=False, reden=f"te weinig winst (±€{round(winst_laag)})")
     return info
 
 
@@ -469,17 +596,22 @@ def stuur(cfg, titel, bericht, url=None, prio="high", tags="golf,moneybag"):
 def melding_tekst(l, info, zone):
     loc = l.get("location") or {}
     if l.get("_bron") == "vinted":
-        regels = [f"€{info['prijs']:.0f} op Vinted + ±€{info.get('kosten_extra', 0):.0f} servicekost/verzending"
-                  f" = ±€{info.get('kost', info['prijs']):.0f}"]
+        regels = [f"Vraagprijs €{info['prijs']:.0f} op Vinted (+±€{info.get('kosten_extra', 0):.0f} kosten/verzending)"]
     else:
-        regels = [f"€{info['prijs']:.0f}" + (" (bieden vanaf)" if info["prijstype"] == "MIN_BID" else "")
+        regels = [f"Vraagprijs €{info['prijs']:.0f}" + (" (bieden vanaf)" if info["prijstype"] == "MIN_BID" else "")
                   + f" · {loc.get('cityName', '?')} ({zone})"]
-    if info.get("markt"):
-        markten = " · ".join(f"{k} ±€{v}" for k, v in info.get("markten", {}).items())
-        regels.append(f"Markt: {markten}")
-        regels.append(f"Verkoop op {info['kanaal']} ±€{info['verkoop']} → winst ±€{info['winst']}")
-    regels.append(f"Waarom: {info['reden']}")
-    regels.append(" · ".join(x for x in [info.get("soort"), info.get("merk"), info.get("model")] if x))
+    if info.get("gb"):
+        gb = info["gb"]
+        regels.append(f"Golfbidder: €{gb['prijs']:.0f} ({gb['naam']}, {gb['jaar']})"
+                      + ("" if gb["zeker"] else " ≈ goedkoopste variant"))
+    else:
+        mk = " · ".join(f"{k} ±€{v}" for k, v in info.get("markten", {}).items())
+        regels.append(f"Geen Golfbidder-prijs → {mk}")
+    regels.append(f"Verkoop aan €{info['verkoop_laag']}-{info['verkoop_hoog']} → winst ±€{info['winst_laag']}-{info['winst_hoog']}")
+    regels.append(f"MAX. BOD: €{info['max_bod']} (dan hou je min. €25 over)")
+    groet = "Bonjour" if l.get("_bron") == "vinted" and re.search(r"[éèàç]|bon |très", tekst(l)) else "Hallo"
+    ophalen = "" if l.get("_bron") == "vinted" else " Ik kan hem snel komen ophalen."
+    regels.append(f"Bericht: {groet}, is deze nog beschikbaar? Zou €{info['openingsbod']} lukken?{ophalen} Mvg")
     return "\n".join(regels)
 
 
