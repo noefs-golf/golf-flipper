@@ -818,5 +818,15 @@
   "ts": 1795105770.1115077,
   "n": 2,
   "mediaan": 92.0
+ },
+ "hybride|titleist": {
+  "ts": 1795113175.720249,
+  "n": 6,
+  "mediaan": 122.5
+ },
+ "vinted|hybride|titleist": {
+  "ts": 1795113177.4760041,
+  "n": 35,
+  "mediaan": 79.0
  }
 }
