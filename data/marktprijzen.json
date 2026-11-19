@@ -828,5 +828,20 @@
   "ts": 1795113177.4760041,
   "n": 35,
   "mediaan": 79.0
+ },
+ "set|cobra": {
+  "ts": 1795117319.2744179,
+  "n": 4,
+  "mediaan": 300.0
+ },
+ "wedge|taylormade|burner": {
+  "ts": 1795117321.0473325,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|wedge|taylormade|burner": {
+  "ts": 1795117322.4518404,
+  "n": 2,
+  "mediaan": 32.45
  }
 }
