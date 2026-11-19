@@ -843,5 +843,25 @@
   "ts": 1795117322.4518404,
   "n": 2,
   "mediaan": 32.45
+ },
+ "horloge|garmin|s44": {
+  "ts": 1795120888.9149168,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|horloge|garmin|s44": {
+  "ts": 1795120890.5636873,
+  "n": 2,
+  "mediaan": 225.0
+ },
+ "tas|callaway|bigbertha": {
+  "ts": 1795120894.238201,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|tas|callaway|bigbertha": {
+  "ts": 1795120895.4985878,
+  "n": 0,
+  "mediaan": null
  }
 }
