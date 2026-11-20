@@ -100,14 +100,14 @@
   "mediaan": 80.0
  },
  "putter|odyssey": {
-  "ts": 1794931265.56679,
+  "ts": 1795190467.1542597,
   "n": 21,
-  "mediaan": 115.0
+  "mediaan": 110.0
  },
  "vinted|putter|odyssey": {
-  "ts": 1794931266.9930418,
-  "n": 63,
-  "mediaan": 99.0
+  "ts": 1795190468.764197,
+  "n": 60,
+  "mediaan": 102.5
  },
  "tas|taylormade": {
   "ts": 1794931270.5305872,
@@ -876,6 +876,11 @@
  },
  "set|taylormade|stealth": {
   "ts": 1795186798.8442883,
+  "n": 0,
+  "mediaan": null
+ },
+ "set|taylormade|r11": {
+  "ts": 1795190472.5503864,
   "n": 0,
   "mediaan": null
  }
