@@ -60,13 +60,13 @@
   "mediaan": 250.0
  },
  "hybride|callaway": {
-  "ts": 1794927581.146601,
-  "n": 10,
-  "mediaan": 57.5
+  "ts": 1795201385.5766728,
+  "n": 13,
+  "mediaan": 65.0
  },
  "vinted|hybride|callaway": {
-  "ts": 1794927582.4900882,
-  "n": 64,
+  "ts": 1795201387.3878038,
+  "n": 63,
   "mediaan": 90.0
  },
  "wedge|callaway": {
@@ -140,7 +140,7 @@
   "mediaan": null
  },
  "driver|taylormade": {
-  "ts": 1794935325.7567616,
+  "ts": 1795201383.7080498,
   "n": 4,
   "mediaan": 97.5
  },
@@ -280,7 +280,7 @@
   "mediaan": null
  },
  "fairway|callaway": {
-  "ts": 1794939043.7741442,
+  "ts": 1795201390.9705067,
   "n": 7,
   "mediaan": 85.0
  },
@@ -290,9 +290,9 @@
   "mediaan": null
  },
  "vinted|fairway|callaway": {
-  "ts": 1794939046.8283782,
-  "n": 32,
-  "mediaan": 47.0
+  "ts": 1795201393.2134755,
+  "n": 31,
+  "mediaan": 45.0
  },
  "driver|taylormade|qi10": {
   "ts": 1794943835.129489,
