@@ -90,14 +90,14 @@
   "mediaan": 80.0
  },
  "driver|callaway": {
-  "ts": 1794931260.5518029,
-  "n": 18,
-  "mediaan": 172.5
+  "ts": 1795205111.2429166,
+  "n": 19,
+  "mediaan": 135.0
  },
  "vinted|driver|callaway": {
-  "ts": 1794931261.9537792,
-  "n": 72,
-  "mediaan": 80.0
+  "ts": 1795205115.1207042,
+  "n": 64,
+  "mediaan": 97.0
  },
  "putter|odyssey": {
   "ts": 1795190467.1542597,
@@ -160,14 +160,14 @@
   "mediaan": 82.5
  },
  "putter|cobra": {
-  "ts": 1794935337.076826,
+  "ts": 1795205133.001254,
   "n": 2,
   "mediaan": 114.5
  },
  "vinted|putter|cobra": {
-  "ts": 1794935338.6216362,
-  "n": 24,
-  "mediaan": 112.5
+  "ts": 1795205134.4433568,
+  "n": 25,
+  "mediaan": 139.0
  },
  "ijzers|cobra|king": {
   "ts": 1794935342.2473857,
@@ -315,24 +315,24 @@
   "mediaan": 105.0
  },
  "driver|callaway|bigbertha": {
-  "ts": 1794943845.4216259,
+  "ts": 1795205111.2429166,
   "n": 0,
   "mediaan": null
  },
  "vinted|driver|callaway|bigbertha": {
-  "ts": 1794943846.6867015,
+  "ts": 1795205115.1207042,
   "n": 3,
   "mediaan": 34.0
  },
  "putter|ping": {
-  "ts": 1794943850.5497956,
-  "n": 11,
-  "mediaan": 75.0
+  "ts": 1795205126.3092246,
+  "n": 12,
+  "mediaan": 67.5
  },
  "vinted|putter|ping": {
-  "ts": 1794943852.2103906,
-  "n": 62,
-  "mediaan": 65.0
+  "ts": 1795205129.3658712,
+  "n": 68,
+  "mediaan": 61.5
  },
  "fairway|taylormade|m6": {
   "ts": 1794943855.9102674,
@@ -881,6 +881,21 @@
  },
  "set|taylormade|r11": {
   "ts": 1795190472.5503864,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|cleveland": {
+  "ts": 1795205122.4438853,
+  "n": 31,
+  "mediaan": 70.0
+ },
+ "putter|callaway|bigbertha": {
+  "ts": 1795205138.2419531,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|putter|callaway|bigbertha": {
+  "ts": 1795205139.5554166,
   "n": 0,
   "mediaan": null
  }
