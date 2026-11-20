@@ -30,7 +30,7 @@
   "mediaan": null
  },
  "horloge|garmin": {
-  "ts": 1794927563.896074,
+  "ts": 1795186800.3561547,
   "n": 11,
   "mediaan": 125.0
  },
@@ -40,14 +40,14 @@
   "mediaan": 80.0
  },
  "horloge|garmin|s70": {
-  "ts": 1794927570.2784996,
+  "ts": 1795186800.3561547,
   "n": 1,
   "mediaan": 300.0
  },
  "vinted|horloge|garmin|s70": {
-  "ts": 1794927572.759201,
+  "ts": 1795186803.20839,
   "n": 11,
-  "mediaan": 420.0
+  "mediaan": 400.0
  },
  "horloge|garmin|s62": {
   "ts": 1794927576.184264,
@@ -80,13 +80,13 @@
   "mediaan": 60.0
  },
  "wedge|titleist": {
-  "ts": 1794927590.8663614,
+  "ts": 1795186806.7706285,
   "n": 3,
   "mediaan": 300.0
  },
  "vinted|wedge|titleist": {
-  "ts": 1794927592.1180732,
-  "n": 81,
+  "ts": 1795186808.0805802,
+  "n": 87,
   "mediaan": 80.0
  },
  "driver|callaway": {
@@ -873,5 +873,10 @@
   "ts": 1795163834.92834,
   "n": 4,
   "mediaan": 54.5
+ },
+ "set|taylormade|stealth": {
+  "ts": 1795186798.8442883,
+  "n": 0,
+  "mediaan": null
  }
 }
