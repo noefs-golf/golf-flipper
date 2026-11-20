@@ -863,5 +863,15 @@
   "ts": 1795120895.4985878,
   "n": 0,
   "mediaan": null
+ },
+ "fairway|taylormade|burner": {
+  "ts": 1795163833.260192,
+  "n": 1,
+  "mediaan": 75.0
+ },
+ "vinted|fairway|taylormade|burner": {
+  "ts": 1795163834.92834,
+  "n": 4,
+  "mediaan": 54.5
  }
 }
