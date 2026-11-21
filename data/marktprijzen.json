@@ -560,7 +560,7 @@
   "mediaan": 65.0
  },
  "set|taylormade": {
-  "ts": 1795010616.8155336,
+  "ts": 1795278322.7830317,
   "n": 5,
   "mediaan": 269.0
  },
@@ -946,6 +946,31 @@
  },
  "vinted|fairway|taylormade|rbz": {
   "ts": 1795268425.380231,
+  "n": 0,
+  "mediaan": null
+ },
+ "set|taylormade|simmax": {
+  "ts": 1795278322.7830317,
+  "n": 0,
+  "mediaan": null
+ },
+ "driver|ping|g30": {
+  "ts": 1795278325.6230354,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|ping|g30": {
+  "ts": 1795278326.9557307,
+  "n": 2,
+  "mediaan": 140.0
+ },
+ "trolley|big max": {
+  "ts": 1795278330.3982165,
+  "n": 3,
+  "mediaan": 95.0
+ },
+ "trolley|taylormade": {
+  "ts": 1795278332.0251248,
   "n": 0,
   "mediaan": null
  }
