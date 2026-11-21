@@ -200,14 +200,14 @@
   "mediaan": 51.0
  },
  "hybride|ping": {
-  "ts": 1794935357.8309717,
+  "ts": 1795253241.5484326,
   "n": 3,
   "mediaan": 110.0
  },
  "vinted|hybride|ping": {
-  "ts": 1794935359.1724985,
-  "n": 20,
-  "mediaan": 71.0
+  "ts": 1795253243.0647383,
+  "n": 23,
+  "mediaan": 60.0
  },
  "wedge|ping|g410": {
   "ts": 1794935362.743065,
@@ -305,14 +305,14 @@
   "mediaan": 300.0
  },
  "driver|ping": {
-  "ts": 1794943840.1601267,
-  "n": 0,
-  "mediaan": null
+  "ts": 1795253231.038838,
+  "n": 1,
+  "mediaan": 100.0
  },
  "vinted|driver|ping": {
-  "ts": 1794943841.7719111,
-  "n": 56,
-  "mediaan": 105.0
+  "ts": 1795253232.6419506,
+  "n": 42,
+  "mediaan": 86.0
  },
  "driver|callaway|bigbertha": {
   "ts": 1795205111.2429166,
@@ -918,5 +918,15 @@
   "ts": 1795249568.8465524,
   "n": 5,
   "mediaan": 45.0
+ },
+ "tas|cleveland": {
+  "ts": 1795253236.6044397,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|tas|cleveland": {
+  "ts": 1795253238.0349963,
+  "n": 1,
+  "mediaan": 35.0
  }
 }
