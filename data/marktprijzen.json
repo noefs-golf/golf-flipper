@@ -125,7 +125,7 @@
   "mediaan": null
  },
  "driver|mizuno": {
-  "ts": 1794935319.2888665,
+  "ts": 1795285158.2609155,
   "n": 0,
   "mediaan": null
  },
@@ -380,14 +380,14 @@
   "mediaan": 57.0
  },
  "driver|srixon": {
-  "ts": 1794951045.3284168,
+  "ts": 1795285153.1881428,
   "n": 0,
   "mediaan": null
  },
  "vinted|driver|srixon": {
-  "ts": 1794951046.6389515,
-  "n": 19,
-  "mediaan": 93.0
+  "ts": 1795285154.6494522,
+  "n": 16,
+  "mediaan": 114.95
  },
  "driver|cleveland|launcher": {
   "ts": 1794951050.5364957,
@@ -650,9 +650,9 @@
   "mediaan": 150.0
  },
  "vinted|driver|mizuno": {
-  "ts": 1795021933.8918242,
-  "n": 33,
-  "mediaan": 80.0
+  "ts": 1795285160.2538624,
+  "n": 30,
+  "mediaan": 82.5
  },
  "wedge|mizuno": {
   "ts": 1795021937.4464123,
@@ -973,5 +973,15 @@
   "ts": 1795278332.0251248,
   "n": 0,
   "mediaan": null
+ },
+ "fairway|taylormade|sldr": {
+  "ts": 1795285164.0478623,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|taylormade|sldr": {
+  "ts": 1795285165.4451227,
+  "n": 1,
+  "mediaan": 55.0
  }
 }
