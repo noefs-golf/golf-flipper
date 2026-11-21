@@ -10,9 +10,9 @@
   "mediaan": 20.0
  },
  "vinted|putter|scotty cameron": {
-  "ts": 1794927555.4039333,
-  "n": 57,
-  "mediaan": 215.0
+  "ts": 1795249572.2285888,
+  "n": 53,
+  "mediaan": 230.0
  },
  "putter|mizuno": {
   "ts": 1794927558.907072,
@@ -355,9 +355,9 @@
   "mediaan": 77.0
  },
  "vinted|driver|taylormade": {
-  "ts": 1794947310.8957815,
-  "n": 71,
-  "mediaan": 99.0
+  "ts": 1795249563.755574,
+  "n": 52,
+  "mediaan": 100.0
  },
  "fairway|callaway|bigbertha": {
   "ts": 1794947314.8486485,
@@ -898,5 +898,25 @@
   "ts": 1795205139.5554166,
   "n": 0,
   "mediaan": null
+ },
+ "driver|callaway|aismoke": {
+  "ts": 1795249558.9795425,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|callaway|aismoke": {
+  "ts": 1795249560.323614,
+  "n": 1,
+  "mediaan": 420.0
+ },
+ "fairway|cleveland": {
+  "ts": 1795249567.4066212,
+  "n": 1,
+  "mediaan": 15.0
+ },
+ "vinted|fairway|cleveland": {
+  "ts": 1795249568.8465524,
+  "n": 5,
+  "mediaan": 45.0
  }
 }
