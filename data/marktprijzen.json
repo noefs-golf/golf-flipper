@@ -435,9 +435,9 @@
   "mediaan": 95.0
  },
  "vinted|horloge|garmin": {
-  "ts": 1794954704.9791405,
-  "n": 80,
-  "mediaan": 135.0
+  "ts": 1795274901.7677274,
+  "n": 82,
+  "mediaan": 142.5
  },
  "putter|taylormade|spider": {
   "ts": 1794986438.9129994,
@@ -545,12 +545,12 @@
   "mediaan": 650.0
  },
  "ijzers|mizuno": {
-  "ts": 1795002446.9112985,
+  "ts": 1795274896.908957,
   "n": 3,
   "mediaan": 475.0
  },
  "vinted|ijzers|mizuno": {
-  "ts": 1795002448.1696904,
+  "ts": 1795274898.3301284,
   "n": 1,
   "mediaan": 1150.0
  },
