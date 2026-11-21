@@ -265,9 +265,9 @@
   "mediaan": null
  },
  "hybride|taylormade": {
-  "ts": 1794939037.3321655,
-  "n": 2,
-  "mediaan": 117.5
+  "ts": 1795268432.4479046,
+  "n": 3,
+  "mediaan": 110.0
  },
  "vinted|hybride|taylormade|sim2": {
   "ts": 1794939040.3066864,
@@ -340,7 +340,7 @@
   "mediaan": null
  },
  "fairway|taylormade": {
-  "ts": 1794943855.9102674,
+  "ts": 1795268422.5362225,
   "n": 5,
   "mediaan": 75.0
  },
@@ -350,9 +350,9 @@
   "mediaan": 97.5
  },
  "vinted|fairway|taylormade": {
-  "ts": 1794943858.5387025,
-  "n": 28,
-  "mediaan": 77.0
+  "ts": 1795268425.380231,
+  "n": 25,
+  "mediaan": 79.0
  },
  "vinted|driver|taylormade": {
   "ts": 1795249563.755574,
@@ -555,9 +555,9 @@
   "mediaan": 1150.0
  },
  "vinted|hybride|taylormade": {
-  "ts": 1795006091.6000638,
-  "n": 68,
-  "mediaan": 60.0
+  "ts": 1795268433.995563,
+  "n": 61,
+  "mediaan": 65.0
  },
  "set|taylormade": {
   "ts": 1795010616.8155336,
@@ -938,5 +938,15 @@
   "ts": 1795260391.0028648,
   "n": 4,
   "mediaan": 67.5
+ },
+ "fairway|taylormade|rbz": {
+  "ts": 1795268422.5362225,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|taylormade|rbz": {
+  "ts": 1795268425.380231,
+  "n": 0,
+  "mediaan": null
  }
 }
