@@ -800,14 +800,14 @@
   "mediaan": null
  },
  "fairway|ping": {
-  "ts": 1795097448.1947565,
+  "ts": 1795368320.2480855,
   "n": 1,
   "mediaan": 25.0
  },
  "vinted|fairway|ping": {
-  "ts": 1795097449.4458714,
-  "n": 5,
-  "mediaan": 99.0
+  "ts": 1795368321.4805954,
+  "n": 7,
+  "mediaan": 100.0
  },
  "fairway|callaway|mavrik": {
   "ts": 1795105768.4643698,
@@ -1018,5 +1018,15 @@
   "ts": 1795361330.6828625,
   "n": 0,
   "mediaan": null
+ },
+ "driver|taylormade|burner": {
+  "ts": 1795368314.7924683,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|taylormade|burner": {
+  "ts": 1795368316.1078568,
+  "n": 23,
+  "mediaan": 65.0
  }
 }
