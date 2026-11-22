@@ -610,7 +610,7 @@
   "mediaan": 225.0
  },
  "trolley|titleist": {
-  "ts": 1795014022.8523936,
+  "ts": 1795361334.4745612,
   "n": 1,
   "mediaan": 30.0
  },
@@ -1006,6 +1006,16 @@
  },
  "trolley|ping": {
   "ts": 1795354800.7014303,
+  "n": 0,
+  "mediaan": null
+ },
+ "ijzers|cleveland": {
+  "ts": 1795361329.0752025,
+  "n": 1,
+  "mediaan": 275.0
+ },
+ "vinted|ijzers|cleveland": {
+  "ts": 1795361330.6828625,
   "n": 0,
   "mediaan": null
  }
