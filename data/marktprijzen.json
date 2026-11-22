@@ -983,5 +983,15 @@
   "ts": 1795285165.4451227,
   "n": 1,
   "mediaan": 55.0
+ },
+ "ijzers|mizuno|jpx": {
+  "ts": 1795346717.4165397,
+  "n": 2,
+  "mediaan": 482.5
+ },
+ "vinted|ijzers|mizuno|jpx": {
+  "ts": 1795346718.9429116,
+  "n": 0,
+  "mediaan": null
  }
 }
