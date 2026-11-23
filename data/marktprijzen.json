@@ -80,14 +80,14 @@
   "mediaan": 62.0
  },
  "wedge|titleist": {
-  "ts": 1795186806.7706285,
+  "ts": 1795447873.4605346,
   "n": 3,
   "mediaan": 300.0
  },
  "vinted|wedge|titleist": {
-  "ts": 1795186808.0805802,
-  "n": 87,
-  "mediaan": 80.0
+  "ts": 1795447875.5428267,
+  "n": 88,
+  "mediaan": 75.0
  },
  "driver|callaway": {
   "ts": 1795205111.2429166,
@@ -455,14 +455,14 @@
   "mediaan": 185.0
  },
  "fairway|titleist": {
-  "ts": 1794986445.740198,
+  "ts": 1795447880.1194985,
   "n": 1,
   "mediaan": 85.0
  },
  "vinted|fairway|titleist": {
-  "ts": 1794986447.1220245,
-  "n": 11,
-  "mediaan": 150.0
+  "ts": 1795447881.876624,
+  "n": 7,
+  "mediaan": 70.0
  },
  "horloge|garmin|s60": {
   "ts": 1795263951.2463045,
@@ -675,14 +675,14 @@
   "mediaan": 145.0
  },
  "ijzers|titleist": {
-  "ts": 1795021947.1098266,
+  "ts": 1795447885.4633248,
   "n": 2,
   "mediaan": 375.0
  },
  "vinted|ijzers|titleist": {
-  "ts": 1795021948.4306145,
-  "n": 1,
-  "mediaan": 1275.0
+  "ts": 1795447887.40701,
+  "n": 2,
+  "mediaan": 887.5
  },
  "ijzers|callaway|rogue": {
   "ts": 1795025572.3956769,
