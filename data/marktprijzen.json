@@ -280,9 +280,9 @@
   "mediaan": null
  },
  "fairway|callaway": {
-  "ts": 1795201390.9705067,
-  "n": 7,
-  "mediaan": 85.0
+  "ts": 1795462922.1757858,
+  "n": 9,
+  "mediaan": 105.0
  },
  "vinted|fairway|callaway|aismoke": {
   "ts": 1794939046.8283782,
@@ -290,8 +290,8 @@
   "mediaan": null
  },
  "vinted|fairway|callaway": {
-  "ts": 1795201393.2134755,
-  "n": 31,
+  "ts": 1795462924.877981,
+  "n": 34,
   "mediaan": 45.0
  },
  "driver|taylormade|qi10": {
@@ -360,14 +360,14 @@
   "mediaan": 100.0
  },
  "fairway|callaway|bigbertha": {
-  "ts": 1794947314.8486485,
+  "ts": 1795462922.1757858,
   "n": 0,
   "mediaan": null
  },
  "vinted|fairway|callaway|bigbertha": {
-  "ts": 1794947316.501886,
+  "ts": 1795462924.877981,
   "n": 2,
-  "mediaan": 37.5
+  "mediaan": 62.0
  },
  "putter|srixon": {
   "ts": 1794947319.9172711,
