@@ -415,14 +415,14 @@
   "mediaan": 80.0
  },
  "putter|cleveland": {
-  "ts": 1794954698.354059,
+  "ts": 1795433113.4792106,
   "n": 0,
   "mediaan": null
  },
  "vinted|putter|cleveland": {
-  "ts": 1794954699.8298168,
-  "n": 38,
-  "mediaan": 67.0
+  "ts": 1795433114.8936117,
+  "n": 27,
+  "mediaan": 70.0
  },
  "horloge|garmin|s40": {
   "ts": 1794954703.475587,
@@ -1043,5 +1043,25 @@
   "ts": 1795429201.6364546,
   "n": 7,
   "mediaan": 105.0
+ },
+ "putter|titleist": {
+  "ts": 1795433108.2152557,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|putter|titleist": {
+  "ts": 1795433109.8255556,
+  "n": 8,
+  "mediaan": 62.5
+ },
+ "ijzers|taylormade|burner": {
+  "ts": 1795433118.479429,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|ijzers|taylormade|burner": {
+  "ts": 1795433119.9638126,
+  "n": 0,
+  "mediaan": null
  }
 }
