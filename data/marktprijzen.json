@@ -30,9 +30,9 @@
   "mediaan": null
  },
  "horloge|garmin": {
-  "ts": 1795186800.3561547,
+  "ts": 1795469624.1320658,
   "n": 11,
-  "mediaan": 125.0
+  "mediaan": 120.0
  },
  "vinted|horloge|garmin|s20": {
   "ts": 1795291528.367175,
@@ -760,13 +760,13 @@
   "mediaan": 250.0
  },
  "horloge|garmin|s10": {
-  "ts": 1795091570.2017684,
+  "ts": 1795469624.1320658,
   "n": 0,
   "mediaan": null
  },
  "vinted|horloge|garmin|s10": {
-  "ts": 1795091571.6487114,
-  "n": 14,
+  "ts": 1795469627.4610558,
+  "n": 15,
   "mediaan": 75.0
  },
  "ijzers|ping": {
@@ -780,14 +780,14 @@
   "mediaan": 48.0
  },
  "putter|callaway": {
-  "ts": 1795097437.883719,
-  "n": 3,
-  "mediaan": 250.0
+  "ts": 1795469618.9917798,
+  "n": 4,
+  "mediaan": 200.0
  },
  "vinted|putter|callaway": {
-  "ts": 1795097439.423392,
-  "n": 21,
-  "mediaan": 59.0
+  "ts": 1795469620.674429,
+  "n": 20,
+  "mediaan": 57.0
  },
  "ijzers|callaway|bigbertha": {
   "ts": 1795097443.3350644,
