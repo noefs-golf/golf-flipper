@@ -1033,5 +1033,15 @@
   "ts": 1795424777.51992,
   "n": 1,
   "mediaan": 600.0
+ },
+ "driver|taylormade|sldr": {
+  "ts": 1795429200.1548264,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|taylormade|sldr": {
+  "ts": 1795429201.6364546,
+  "n": 7,
+  "mediaan": 105.0
  }
 }
