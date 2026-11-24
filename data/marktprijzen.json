@@ -90,14 +90,14 @@
   "mediaan": 75.0
  },
  "driver|callaway": {
-  "ts": 1795205111.2429166,
-  "n": 19,
-  "mediaan": 135.0
+  "ts": 1795557746.5338693,
+  "n": 23,
+  "mediaan": 155.0
  },
  "vinted|driver|callaway": {
-  "ts": 1795205115.1207042,
-  "n": 64,
-  "mediaan": 97.0
+  "ts": 1795557750.6394632,
+  "n": 67,
+  "mediaan": 79.0
  },
  "putter|odyssey": {
   "ts": 1795451615.1519744,
@@ -305,14 +305,14 @@
   "mediaan": 300.0
  },
  "driver|ping": {
-  "ts": 1795253231.038838,
+  "ts": 1795557757.8405318,
   "n": 1,
   "mediaan": 100.0
  },
  "vinted|driver|ping": {
-  "ts": 1795253232.6419506,
-  "n": 42,
-  "mediaan": 86.0
+  "ts": 1795557759.8867366,
+  "n": 39,
+  "mediaan": 105.0
  },
  "driver|callaway|bigbertha": {
   "ts": 1795205111.2429166,
@@ -545,12 +545,12 @@
   "mediaan": 650.0
  },
  "ijzers|mizuno": {
-  "ts": 1795274896.908957,
+  "ts": 1795557763.5012844,
   "n": 3,
   "mediaan": 475.0
  },
  "vinted|ijzers|mizuno": {
-  "ts": 1795274898.3301284,
+  "ts": 1795557764.7522602,
   "n": 1,
   "mediaan": 1150.0
  },
@@ -900,12 +900,12 @@
   "mediaan": null
  },
  "driver|callaway|aismoke": {
-  "ts": 1795249558.9795425,
+  "ts": 1795557746.5338693,
   "n": 0,
   "mediaan": null
  },
  "vinted|driver|callaway|aismoke": {
-  "ts": 1795249560.323614,
+  "ts": 1795557750.6394632,
   "n": 1,
   "mediaan": 420.0
  },
@@ -1078,5 +1078,15 @@
   "ts": 1795539260.580617,
   "n": 3,
   "mediaan": 100.0
+ },
+ "ijzers|callaway|aismoke": {
+  "ts": 1795557768.2393522,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|ijzers|callaway|aismoke": {
+  "ts": 1795557769.8883023,
+  "n": 0,
+  "mediaan": null
  }
 }
