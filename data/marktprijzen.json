@@ -10,9 +10,9 @@
   "mediaan": 20.0
  },
  "vinted|putter|scotty cameron": {
-  "ts": 1795249572.2285888,
-  "n": 53,
-  "mediaan": 230.0
+  "ts": 1795539252.2240415,
+  "n": 47,
+  "mediaan": 215.0
  },
  "putter|mizuno": {
   "ts": 1795364755.912005,
@@ -265,7 +265,7 @@
   "mediaan": null
  },
  "hybride|taylormade": {
-  "ts": 1795268432.4479046,
+  "ts": 1795539256.1076522,
   "n": 3,
   "mediaan": 110.0
  },
@@ -555,9 +555,9 @@
   "mediaan": 1150.0
  },
  "vinted|hybride|taylormade": {
-  "ts": 1795268433.995563,
-  "n": 61,
-  "mediaan": 65.0
+  "ts": 1795539260.580617,
+  "n": 64,
+  "mediaan": 70.0
  },
  "set|taylormade": {
   "ts": 1795278322.7830317,
@@ -1068,5 +1068,15 @@
   "ts": 1795526548.2655356,
   "n": 1,
   "mediaan": 399.0
+ },
+ "hybride|taylormade|sim": {
+  "ts": 1795539256.1076522,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|hybride|taylormade|sim": {
+  "ts": 1795539260.580617,
+  "n": 3,
+  "mediaan": 100.0
  }
 }
