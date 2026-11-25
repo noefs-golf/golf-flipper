@@ -745,12 +745,12 @@
   "mediaan": null
  },
  "fairway|callaway|epic": {
-  "ts": 1795081755.026657,
+  "ts": 1795596734.2983484,
   "n": 0,
   "mediaan": null
  },
  "vinted|fairway|callaway|epic": {
-  "ts": 1795081756.2150018,
+  "ts": 1795596735.5850737,
   "n": 1,
   "mediaan": 140.0
  },
@@ -965,7 +965,7 @@
   "mediaan": 140.0
  },
  "trolley|big max": {
-  "ts": 1795278330.3982165,
+  "ts": 1795596730.9762201,
   "n": 3,
   "mediaan": 95.0
  },
@@ -1096,6 +1096,41 @@
  },
  "vinted|tas|taylormade|burner": {
   "ts": 1795591594.4794343,
+  "n": 0,
+  "mediaan": null
+ },
+ "tas|sun mountain": {
+  "ts": 1795596715.138713,
+  "n": 1,
+  "mediaan": 79.0
+ },
+ "vinted|tas|sun mountain": {
+  "ts": 1795596716.7463012,
+  "n": 0,
+  "mediaan": null
+ },
+ "tas|cobra": {
+  "ts": 1795596720.381125,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|tas|cobra": {
+  "ts": 1795596722.1831458,
+  "n": 18,
+  "mediaan": 79.5
+ },
+ "tas|mizuno": {
+  "ts": 1795596725.7635908,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|tas|mizuno": {
+  "ts": 1795596727.0440896,
+  "n": 18,
+  "mediaan": 75.0
+ },
+ "trolley|clicgear": {
+  "ts": 1795596732.953848,
   "n": 0,
   "mediaan": null
  }
