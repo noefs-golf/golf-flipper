@@ -525,22 +525,22 @@
   "mediaan": 159.0
  },
  "driver|titleist": {
-  "ts": 1795350276.1447299,
+  "ts": 1795613591.1390743,
   "n": 3,
   "mediaan": 350.0
  },
  "vinted|driver|titleist": {
-  "ts": 1795350277.4314113,
-  "n": 61,
-  "mediaan": 220.0
+  "ts": 1795613592.6625967,
+  "n": 62,
+  "mediaan": 200.0
  },
  "ijzers|taylormade": {
-  "ts": 1795271921.8037353,
+  "ts": 1795613596.4079733,
   "n": 6,
   "mediaan": 250.0
  },
  "vinted|ijzers|taylormade": {
-  "ts": 1795271923.3648877,
+  "ts": 1795613597.967078,
   "n": 3,
   "mediaan": 650.0
  },
