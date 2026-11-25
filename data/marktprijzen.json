@@ -125,7 +125,7 @@
   "mediaan": null
  },
  "driver|mizuno": {
-  "ts": 1795285158.2609155,
+  "ts": 1795591587.7127035,
   "n": 0,
   "mediaan": null
  },
@@ -650,7 +650,7 @@
   "mediaan": 150.0
  },
  "vinted|driver|mizuno": {
-  "ts": 1795285160.2538624,
+  "ts": 1795591589.310616,
   "n": 30,
   "mediaan": 82.5
  },
@@ -1086,6 +1086,16 @@
  },
  "vinted|ijzers|callaway|aismoke": {
   "ts": 1795557769.8883023,
+  "n": 0,
+  "mediaan": null
+ },
+ "tas|taylormade|burner": {
+  "ts": 1795591593.14972,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|tas|taylormade|burner": {
+  "ts": 1795591594.4794343,
   "n": 0,
   "mediaan": null
  }
