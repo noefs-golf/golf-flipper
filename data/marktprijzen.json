@@ -1153,5 +1153,15 @@
   "ts": 1795600784.6318064,
   "n": 0,
   "mediaan": null
+ },
+ "driver|cobra|king": {
+  "ts": 1795604602.4923398,
+  "n": 3,
+  "mediaan": 30.0
+ },
+ "vinted|driver|cobra|king": {
+  "ts": 1795604603.796528,
+  "n": 33,
+  "mediaan": 45.0
  }
 }
