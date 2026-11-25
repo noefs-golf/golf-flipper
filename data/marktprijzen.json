@@ -215,7 +215,7 @@
   "mediaan": null
  },
  "wedge|ping": {
-  "ts": 1795350271.222789,
+  "ts": 1795633068.114408,
   "n": 1,
   "mediaan": 30.0
  },
@@ -225,9 +225,9 @@
   "mediaan": 80.0
  },
  "vinted|wedge|ping": {
-  "ts": 1795350272.5492969,
-  "n": 42,
-  "mediaan": 59.5
+  "ts": 1795633069.3295453,
+  "n": 45,
+  "mediaan": 50.0
  },
  "driver|callaway|epic": {
   "ts": 1794939019.5759227,
@@ -710,14 +710,14 @@
   "mediaan": null
  },
  "hybride|big max": {
-  "ts": 1795029853.1956756,
-  "n": 2,
-  "mediaan": 90.0
+  "ts": 1795633063.0740054,
+  "n": 0,
+  "mediaan": null
  },
  "vinted|hybride|big max": {
-  "ts": 1795029854.5534904,
-  "n": 4,
-  "mediaan": 80.0
+  "ts": 1795633064.526988,
+  "n": 2,
+  "mediaan": 165.0
  },
  "driver|taylormade|m4": {
   "ts": 1795081744.3037565,
