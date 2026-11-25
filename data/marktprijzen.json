@@ -435,9 +435,9 @@
   "mediaan": 100.0
  },
  "vinted|horloge|garmin": {
-  "ts": 1795274901.7677274,
-  "n": 82,
-  "mediaan": 142.5
+  "ts": 1795625637.445618,
+  "n": 78,
+  "mediaan": 115.0
  },
  "putter|taylormade|spider": {
   "ts": 1794986438.9129994,
@@ -1183,5 +1183,25 @@
   "ts": 1795608511.0293314,
   "n": 3,
   "mediaan": 105.0
+ },
+ "tas|ping|g400": {
+  "ts": 1795625632.7459805,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|tas|ping|g400": {
+  "ts": 1795625633.9896433,
+  "n": 1,
+  "mediaan": 95.0
+ },
+ "hybride|taylormade|burner": {
+  "ts": 1795625641.234526,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|hybride|taylormade|burner": {
+  "ts": 1795625642.4602306,
+  "n": 4,
+  "mediaan": 55.0
  }
 }
