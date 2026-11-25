@@ -640,14 +640,14 @@
   "mediaan": 100.0
  },
  "horloge|garmin|s42": {
-  "ts": 1795017880.8422322,
+  "ts": 1795636896.5368464,
   "n": 1,
   "mediaan": 225.0
  },
  "vinted|horloge|garmin|s42": {
-  "ts": 1795017882.006243,
-  "n": 11,
-  "mediaan": 150.0
+  "ts": 1795636898.0138857,
+  "n": 12,
+  "mediaan": 145.0
  },
  "vinted|driver|mizuno": {
   "ts": 1795591589.310616,
