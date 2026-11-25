@@ -615,14 +615,14 @@
   "mediaan": 30.0
  },
  "tas|ping": {
-  "ts": 1795331648.8074486,
-  "n": 0,
-  "mediaan": null
+  "ts": 1795618031.4567406,
+  "n": 1,
+  "mediaan": 80.0
  },
  "vinted|tas|ping": {
-  "ts": 1795331650.4184508,
-  "n": 0,
-  "mediaan": null
+  "ts": 1795618032.9645035,
+  "n": 19,
+  "mediaan": 90.0
  },
  "driver|taylormade|m2": {
   "ts": 1795017872.4516087,
