@@ -695,9 +695,9 @@
   "mediaan": null
  },
  "set|titleist": {
-  "ts": 1795029846.984401,
-  "n": 1,
-  "mediaan": 350.0
+  "ts": 1795608515.1624107,
+  "n": 0,
+  "mediaan": null
  },
  "ijzers|taylormade|m6": {
   "ts": 1795029848.4303539,
@@ -1163,5 +1163,25 @@
   "ts": 1795604603.796528,
   "n": 33,
   "mediaan": 45.0
+ },
+ "driver|taylormade|stealth": {
+  "ts": 1795608504.912245,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|taylormade|stealth": {
+  "ts": 1795608506.1780388,
+  "n": 8,
+  "mediaan": 230.0
+ },
+ "driver|titleist|917": {
+  "ts": 1795608509.809151,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|titleist|917": {
+  "ts": 1795608511.0293314,
+  "n": 3,
+  "mediaan": 105.0
  }
 }
