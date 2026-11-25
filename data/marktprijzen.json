@@ -315,12 +315,12 @@
   "mediaan": 105.0
  },
  "driver|callaway|bigbertha": {
-  "ts": 1795205111.2429166,
+  "ts": 1795600772.6786351,
   "n": 0,
   "mediaan": null
  },
  "vinted|driver|callaway|bigbertha": {
-  "ts": 1795205115.1207042,
+  "ts": 1795600779.6692793,
   "n": 3,
   "mediaan": 34.0
  },
@@ -1131,6 +1131,26 @@
  },
  "trolley|clicgear": {
   "ts": 1795596732.953848,
+  "n": 0,
+  "mediaan": null
+ },
+ "driver|titleist|915": {
+  "ts": 1795600767.7148623,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|titleist|915": {
+  "ts": 1795600769.0526907,
+  "n": 3,
+  "mediaan": 110.0
+ },
+ "wedge|callaway|x2hot": {
+  "ts": 1795600783.3187675,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|wedge|callaway|x2hot": {
+  "ts": 1795600784.6318064,
   "n": 0,
   "mediaan": null
  }
