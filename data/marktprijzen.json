@@ -80,14 +80,14 @@
   "mediaan": 55.0
  },
  "wedge|titleist": {
-  "ts": 1795447873.4605346,
-  "n": 3,
-  "mediaan": 300.0
+  "ts": 1795708101.8703012,
+  "n": 4,
+  "mediaan": 200.0
  },
  "vinted|wedge|titleist": {
-  "ts": 1795447875.5428267,
-  "n": 88,
-  "mediaan": 75.0
+  "ts": 1795708103.060382,
+  "n": 87,
+  "mediaan": 70.0
  },
  "driver|callaway": {
   "ts": 1795557746.5338693,
@@ -1020,14 +1020,14 @@
   "mediaan": null
  },
  "driver|taylormade|burner": {
-  "ts": 1795368314.7924683,
+  "ts": 1795708096.9256809,
   "n": 0,
   "mediaan": null
  },
  "vinted|driver|taylormade|burner": {
-  "ts": 1795368316.1078568,
-  "n": 23,
-  "mediaan": 65.0
+  "ts": 1795708098.3542163,
+  "n": 21,
+  "mediaan": 60.0
  },
  "trolley|mizuno": {
   "ts": 1795424777.51992,
