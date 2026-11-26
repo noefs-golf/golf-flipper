@@ -800,14 +800,14 @@
   "mediaan": null
  },
  "fairway|ping": {
-  "ts": 1795368320.2480855,
+  "ts": 1795699769.2286923,
   "n": 1,
   "mediaan": 25.0
  },
  "vinted|fairway|ping": {
-  "ts": 1795368321.4805954,
-  "n": 7,
-  "mediaan": 100.0
+  "ts": 1795699770.7380688,
+  "n": 5,
+  "mediaan": 99.0
  },
  "fairway|callaway|mavrik": {
   "ts": 1795105768.4643698,
@@ -920,14 +920,14 @@
   "mediaan": 45.0
  },
  "tas|cleveland": {
-  "ts": 1795253236.6044397,
+  "ts": 1795699763.7781773,
   "n": 0,
   "mediaan": null
  },
  "vinted|tas|cleveland": {
-  "ts": 1795253238.0349963,
-  "n": 1,
-  "mediaan": 35.0
+  "ts": 1795699765.3911972,
+  "n": 16,
+  "mediaan": 50.0
  },
  "tas|big max": {
   "ts": 1795621723.2075038,
