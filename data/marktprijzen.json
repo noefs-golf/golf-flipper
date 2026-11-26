@@ -100,13 +100,13 @@
   "mediaan": 79.0
  },
  "putter|odyssey": {
-  "ts": 1795451615.1519744,
-  "n": 21,
-  "mediaan": 110.0
+  "ts": 1795715452.5726004,
+  "n": 22,
+  "mediaan": 112.5
  },
  "vinted|putter|odyssey": {
-  "ts": 1795451616.751533,
-  "n": 55,
+  "ts": 1795715453.9432826,
+  "n": 51,
   "mediaan": 85.0
  },
  "tas|taylormade": {
@@ -405,14 +405,14 @@
   "mediaan": 120.0
  },
  "driver|cobra": {
-  "ts": 1795455306.6322403,
-  "n": 5,
-  "mediaan": 40.0
+  "ts": 1795715447.488571,
+  "n": 6,
+  "mediaan": 130.0
  },
  "vinted|driver|cobra": {
-  "ts": 1795455308.507832,
-  "n": 55,
-  "mediaan": 89.0
+  "ts": 1795715449.025487,
+  "n": 58,
+  "mediaan": 84.5
  },
  "putter|cleveland": {
   "ts": 1795433113.4792106,
@@ -755,8 +755,8 @@
   "mediaan": 140.0
  },
  "vinted|putter|scotty cameron|newport": {
-  "ts": 1795371601.622123,
-  "n": 45,
+  "ts": 1795715457.4451606,
+  "n": 43,
   "mediaan": 250.0
  },
  "horloge|garmin|s10": {
