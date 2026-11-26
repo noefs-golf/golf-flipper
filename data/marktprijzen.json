@@ -110,14 +110,14 @@
   "mediaan": 85.0
  },
  "tas|taylormade": {
-  "ts": 1795458730.2633884,
+  "ts": 1795718579.6754112,
   "n": 4,
   "mediaan": 137.5
  },
  "vinted|tas|taylormade": {
-  "ts": 1795458731.6802142,
-  "n": 6,
-  "mediaan": 172.5
+  "ts": 1795718580.9440043,
+  "n": 29,
+  "mediaan": 99.0
  },
  "driver|mizuno|jpx": {
   "ts": 1794935319.2888665,
@@ -230,14 +230,14 @@
   "mediaan": 50.0
  },
  "driver|callaway|epic": {
-  "ts": 1794939019.5759227,
-  "n": 1,
-  "mediaan": 190.0
+  "ts": 1795718569.9375756,
+  "n": 2,
+  "mediaan": 172.5
  },
  "vinted|driver|callaway|epic": {
-  "ts": 1794939020.9605458,
-  "n": 14,
-  "mediaan": 162.5
+  "ts": 1795718571.297111,
+  "n": 13,
+  "mediaan": 165.0
  },
  "ijzers|callaway|apex": {
   "ts": 1794939024.4668894,
@@ -1203,5 +1203,15 @@
   "ts": 1795625642.4602306,
   "n": 4,
   "mediaan": 55.0
+ },
+ "driver|taylormade|r11": {
+  "ts": 1795718574.9284828,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|taylormade|r11": {
+  "ts": 1795718576.1488693,
+  "n": 8,
+  "mediaan": 85.0
  }
 }
