@@ -1,13 +1,13 @@
 {
  "tas|callaway": {
-  "ts": 1795458735.2576373,
-  "n": 9,
-  "mediaan": 45.0
+  "ts": 1795819463.905996,
+  "n": 10,
+  "mediaan": 35.0
  },
  "vinted|tas|callaway": {
-  "ts": 1795458736.5925703,
-  "n": 3,
-  "mediaan": 20.0
+  "ts": 1795819466.725002,
+  "n": 23,
+  "mediaan": 80.0
  },
  "vinted|putter|scotty cameron": {
   "ts": 1795539252.2240415,
@@ -855,12 +855,12 @@
   "mediaan": 225.0
  },
  "tas|callaway|bigbertha": {
-  "ts": 1795120894.238201,
+  "ts": 1795819463.905996,
   "n": 0,
   "mediaan": null
  },
  "vinted|tas|callaway|bigbertha": {
-  "ts": 1795120895.4985878,
+  "ts": 1795819466.725002,
   "n": 0,
   "mediaan": null
  },
