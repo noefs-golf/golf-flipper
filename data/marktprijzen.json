@@ -50,14 +50,14 @@
   "mediaan": 400.0
  },
  "horloge|garmin|s62": {
-  "ts": 1795354795.3229382,
+  "ts": 1795797134.8591547,
   "n": 2,
   "mediaan": 275.0
  },
  "vinted|horloge|garmin|s62": {
-  "ts": 1795354796.9137895,
+  "ts": 1795797136.2290368,
   "n": 16,
-  "mediaan": 250.0
+  "mediaan": 257.5
  },
  "hybride|callaway": {
   "ts": 1795554235.198144,
@@ -455,12 +455,12 @@
   "mediaan": 185.0
  },
  "fairway|titleist": {
-  "ts": 1795447880.1194985,
+  "ts": 1795797124.460132,
   "n": 1,
   "mediaan": 85.0
  },
  "vinted|fairway|titleist": {
-  "ts": 1795447881.876624,
+  "ts": 1795797126.0754414,
   "n": 7,
   "mediaan": 70.0
  },
@@ -780,14 +780,14 @@
   "mediaan": 48.0
  },
  "putter|callaway": {
-  "ts": 1795469618.9917798,
+  "ts": 1795797129.679458,
   "n": 4,
   "mediaan": 200.0
  },
  "vinted|putter|callaway": {
-  "ts": 1795469620.674429,
-  "n": 20,
-  "mediaan": 57.0
+  "ts": 1795797131.1447577,
+  "n": 21,
+  "mediaan": 59.0
  },
  "ijzers|callaway|bigbertha": {
   "ts": 1795097443.3350644,
