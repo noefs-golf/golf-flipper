@@ -280,7 +280,7 @@
   "mediaan": null
  },
  "fairway|callaway": {
-  "ts": 1795462922.1757858,
+  "ts": 1795804062.018007,
   "n": 9,
   "mediaan": 105.0
  },
@@ -290,8 +290,8 @@
   "mediaan": null
  },
  "vinted|fairway|callaway": {
-  "ts": 1795462924.877981,
-  "n": 34,
+  "ts": 1795804064.0715942,
+  "n": 35,
   "mediaan": 45.0
  },
  "driver|taylormade|qi10": {
@@ -445,9 +445,9 @@
   "mediaan": 159.0
  },
  "putter|taylormade": {
-  "ts": 1795384305.5361948,
-  "n": 6,
-  "mediaan": 137.5
+  "ts": 1795804056.35824,
+  "n": 4,
+  "mediaan": 152.0
  },
  "vinted|putter|taylormade|spider": {
   "ts": 1794986442.124068,
@@ -635,9 +635,9 @@
   "mediaan": 150.0
  },
  "vinted|putter|taylormade": {
-  "ts": 1795384306.9151804,
-  "n": 45,
-  "mediaan": 100.0
+  "ts": 1795804057.9002025,
+  "n": 48,
+  "mediaan": 92.5
  },
  "horloge|garmin|s42": {
   "ts": 1795636896.5368464,
