@@ -1238,5 +1238,15 @@
   "ts": 1795800845.2196033,
   "n": 12,
   "mediaan": 122.5
+ },
+ "driver|cobra|ltdx": {
+  "ts": 1795808374.95983,
+  "n": 1,
+  "mediaan": 220.0
+ },
+ "vinted|driver|cobra|ltdx": {
+  "ts": 1795808376.4578855,
+  "n": 1,
+  "mediaan": 210.0
  }
 }
