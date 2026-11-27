@@ -140,7 +140,7 @@
   "mediaan": null
  },
  "driver|taylormade": {
-  "ts": 1795509736.6536062,
+  "ts": 1795776483.4977505,
   "n": 4,
   "mediaan": 97.5
  },
@@ -355,9 +355,9 @@
   "mediaan": 75.0
  },
  "vinted|driver|taylormade": {
-  "ts": 1795509738.5832243,
-  "n": 56,
-  "mediaan": 100.0
+  "ts": 1795776485.3038056,
+  "n": 58,
+  "mediaan": 85.0
  },
  "fairway|callaway|bigbertha": {
   "ts": 1795462922.1757858,
