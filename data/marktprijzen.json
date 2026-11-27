@@ -245,7 +245,7 @@
   "mediaan": 450.0
  },
  "ijzers|callaway": {
-  "ts": 1795375123.3819203,
+  "ts": 1795779814.425641,
   "n": 7,
   "mediaan": 250.0
  },
@@ -255,7 +255,7 @@
   "mediaan": 600.0
  },
  "vinted|ijzers|callaway": {
-  "ts": 1795375124.7138896,
+  "ts": 1795779815.8029096,
   "n": 3,
   "mediaan": 249.0
  },
@@ -1010,14 +1010,14 @@
   "mediaan": null
  },
  "ijzers|cleveland": {
-  "ts": 1795361329.0752025,
+  "ts": 1795779809.3903584,
   "n": 1,
   "mediaan": 275.0
  },
  "vinted|ijzers|cleveland": {
-  "ts": 1795361330.6828625,
-  "n": 0,
-  "mediaan": null
+  "ts": 1795779810.781426,
+  "n": 1,
+  "mediaan": 6.0
  },
  "driver|taylormade|burner": {
   "ts": 1795708096.9256809,
@@ -1223,5 +1223,10 @@
   "ts": 1795769352.7796803,
   "n": 0,
   "mediaan": null
+ },
+ "set|ping": {
+  "ts": 1795779819.2013497,
+  "n": 3,
+  "mediaan": 400.0
  }
 }
