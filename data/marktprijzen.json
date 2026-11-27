@@ -560,7 +560,7 @@
   "mediaan": 70.0
  },
  "set|taylormade": {
-  "ts": 1795278322.7830317,
+  "ts": 1795769352.7796803,
   "n": 5,
   "mediaan": 269.0
  },
@@ -1216,6 +1216,11 @@
  },
  "trolley|callaway": {
   "ts": 1795725975.8839533,
+  "n": 0,
+  "mediaan": null
+ },
+ "set|taylormade|qi10": {
+  "ts": 1795769352.7796803,
   "n": 0,
   "mediaan": null
  }
