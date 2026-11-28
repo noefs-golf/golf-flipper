@@ -10,9 +10,9 @@
   "mediaan": 80.0
  },
  "vinted|putter|scotty cameron": {
-  "ts": 1795539252.2240415,
+  "ts": 1795858236.9570212,
   "n": 47,
-  "mediaan": 215.0
+  "mediaan": 200.0
  },
  "putter|mizuno": {
   "ts": 1795364755.912005,
@@ -90,14 +90,14 @@
   "mediaan": 70.0
  },
  "driver|callaway": {
-  "ts": 1795557746.5338693,
-  "n": 23,
-  "mediaan": 155.0
+  "ts": 1795858226.6534667,
+  "n": 22,
+  "mediaan": 152.5
  },
  "vinted|driver|callaway": {
-  "ts": 1795557750.6394632,
-  "n": 67,
-  "mediaan": 79.0
+  "ts": 1795858229.3940222,
+  "n": 66,
+  "mediaan": 80.0
  },
  "putter|odyssey": {
   "ts": 1795715452.5726004,
@@ -415,14 +415,14 @@
   "mediaan": 84.5
  },
  "putter|cleveland": {
-  "ts": 1795433113.4792106,
+  "ts": 1795858240.4024475,
   "n": 0,
   "mediaan": null
  },
  "vinted|putter|cleveland": {
-  "ts": 1795433114.8936117,
-  "n": 27,
-  "mediaan": 70.0
+  "ts": 1795858241.728357,
+  "n": 30,
+  "mediaan": 69.5
  },
  "horloge|garmin|s40": {
   "ts": 1795476633.7813156,
@@ -1248,5 +1248,15 @@
   "ts": 1795808376.4578855,
   "n": 1,
   "mediaan": 210.0
+ },
+ "driver|callaway|apex": {
+  "ts": 1795858226.6534667,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|driver|callaway|apex": {
+  "ts": 1795858229.3940222,
+  "n": 1,
+  "mediaan": 110.0
  }
 }
