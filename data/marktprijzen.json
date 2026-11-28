@@ -40,14 +40,14 @@
   "mediaan": 79.0
  },
  "horloge|garmin|s70": {
-  "ts": 1795186800.3561547,
+  "ts": 1795869018.0637412,
   "n": 1,
   "mediaan": 300.0
  },
  "vinted|horloge|garmin|s70": {
-  "ts": 1795186803.20839,
-  "n": 11,
-  "mediaan": 400.0
+  "ts": 1795869020.3569932,
+  "n": 8,
+  "mediaan": 390.0
  },
  "horloge|garmin|s62": {
   "ts": 1795797134.8591547,
@@ -1100,12 +1100,12 @@
   "mediaan": null
  },
  "tas|sun mountain": {
-  "ts": 1795596715.138713,
+  "ts": 1795869012.750526,
   "n": 1,
   "mediaan": 79.0
  },
  "vinted|tas|sun mountain": {
-  "ts": 1795596716.7463012,
+  "ts": 1795869014.6026368,
   "n": 0,
   "mediaan": null
  },
