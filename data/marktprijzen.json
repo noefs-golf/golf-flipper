@@ -1258,5 +1258,15 @@
   "ts": 1795858229.3940222,
   "n": 1,
   "mediaan": 110.0
+ },
+ "fairway|taylormade|r15": {
+  "ts": 1795873462.6453948,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|fairway|taylormade|r15": {
+  "ts": 1795873464.0079339,
+  "n": 0,
+  "mediaan": null
  }
 }
