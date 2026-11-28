@@ -265,7 +265,7 @@
   "mediaan": null
  },
  "hybride|taylormade": {
-  "ts": 1795539256.1076522,
+  "ts": 1795879631.5368934,
   "n": 3,
   "mediaan": 110.0
  },
@@ -555,9 +555,9 @@
   "mediaan": 1150.0
  },
  "vinted|hybride|taylormade": {
-  "ts": 1795539260.580617,
-  "n": 64,
-  "mediaan": 70.0
+  "ts": 1795879633.0026834,
+  "n": 67,
+  "mediaan": 93.0
  },
  "set|taylormade": {
   "ts": 1795769352.7796803,
