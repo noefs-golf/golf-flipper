@@ -170,24 +170,24 @@
   "mediaan": 129.5
  },
  "ijzers|cobra|king": {
-  "ts": 1794935342.2473857,
-  "n": 1,
-  "mediaan": 125.0
+  "ts": 1795897698.3419187,
+  "n": 0,
+  "mediaan": null
  },
  "ijzers|cobra": {
-  "ts": 1794935342.2473857,
-  "n": 1,
-  "mediaan": 125.0
+  "ts": 1795897698.3419187,
+  "n": 0,
+  "mediaan": null
  },
  "vinted|ijzers|cobra|king": {
-  "ts": 1794935345.7146044,
-  "n": 1,
-  "mediaan": 425.0
+  "ts": 1795897701.334955,
+  "n": 0,
+  "mediaan": null
  },
  "vinted|ijzers|cobra": {
-  "ts": 1794935345.7146044,
-  "n": 2,
-  "mediaan": 225.0
+  "ts": 1795897701.334955,
+  "n": 1,
+  "mediaan": 25.0
  },
  "wedge|cleveland": {
   "ts": 1795725977.2586539,
