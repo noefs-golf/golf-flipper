@@ -60,13 +60,13 @@
   "mediaan": 257.5
  },
  "hybride|callaway": {
-  "ts": 1795554235.198144,
-  "n": 13,
+  "ts": 1795886855.0231307,
+  "n": 12,
   "mediaan": 65.0
  },
  "vinted|hybride|callaway": {
-  "ts": 1795554236.874083,
-  "n": 61,
+  "ts": 1795886856.7917054,
+  "n": 56,
   "mediaan": 90.0
  },
  "wedge|callaway": {
@@ -1120,12 +1120,12 @@
   "mediaan": 64.5
  },
  "tas|mizuno": {
-  "ts": 1795596725.7635908,
+  "ts": 1795886860.529841,
   "n": 0,
   "mediaan": null
  },
  "vinted|tas|mizuno": {
-  "ts": 1795596727.0440896,
+  "ts": 1795886861.809632,
   "n": 18,
   "mediaan": 75.0
  },
@@ -1266,6 +1266,16 @@
  },
  "vinted|fairway|taylormade|r15": {
   "ts": 1795873464.0079339,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|afstandsmeter|bushnell|tourv5": {
+  "ts": 1795886865.4256663,
+  "n": 0,
+  "mediaan": null
+ },
+ "vinted|afstandsmeter|bushnell": {
+  "ts": 1795886865.4256663,
   "n": 0,
   "mediaan": null
  }
